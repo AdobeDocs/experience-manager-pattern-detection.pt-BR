@@ -4,8 +4,8 @@ user-guide-title: Guia de detecção de padrões do Experience Manager
 breadcrumb-title: Detecção de padrão de AEM
 user-guide-description: Saiba mais sobre a Detecção de padrões do Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Ferramentas do desenvolvedor
-role: Desenvolvedor
+feature: Developer Tools
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
