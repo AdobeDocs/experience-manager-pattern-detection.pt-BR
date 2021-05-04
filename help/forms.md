@@ -1,20 +1,26 @@
 ---
 title: FORMULÁRIO
 description: Página de ajuda do código do Detector de padrões
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Segundo plano {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms"
+>abstract="O código Forms identifica possíveis problemas relacionados à migração do Adobe Experience Manager Forms para o Adobe Experience Manager Forms as a Cloud Service. Analise possíveis implicações e riscos associados e solucione esses problemas antes de migrar para o Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Possíveis implicações e riscos"
 
 `FORMS` Identifica possíveis problemas relacionados à migração do  [!DNL Adobe Experience Manager Forms] para o  [!DNL Adobe Experience Manager Form]como  [!DNL Cloud Service]. Resolva esses problemas antes de migrar para [!DNL Cloud Service].
 
@@ -62,6 +68,12 @@ Resolva os seguintes problemas, antes de migrar para [!DNL Adobe Experience Mana
 * [As ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) etapas dos Serviços de documento não estão disponíveis nos Fluxos de trabalho AEM. (WORKFLOW_DOCSERVICES)
 
 ## Possíveis soluções {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="Diretrizes de implementação"
+>abstract="As informações expostas por meio do código FORMS podem fornecer orientação sobre substituições e outras ações necessárias para tornar alguns recursos e APIs compatíveis com o Cloud Service. Entre em contato com o Suporte do Adobe para obter ajuda e esclarecimentos"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
 
 * Use o utilitário de migração para converter todos os scripts de regras em seu ambiente em funções reutilizáveis. Você pode usar as funções reutilizáveis com o Editor de regras visuais para continuar obtendo resultados obtidos com scripts de regras. (CODE_EDITOR)
 
