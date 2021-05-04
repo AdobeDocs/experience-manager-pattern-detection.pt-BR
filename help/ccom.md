@@ -1,20 +1,25 @@
 ---
 title: CCOM
 description: Página de ajuda do código do Detector de padrões
+exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 6%
 
 ---
-
 
 # CCOM {#ccom}
 
 Componente personalizado
 
 ## Segundo plano {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_overview"
+>title="Componente personalizado"
+>abstract="O CCOM identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos da avaliação das melhores práticas"
 
 `CCOM` identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos da avaliação das melhores práticas.
 
@@ -30,6 +35,13 @@ Um subtipo é usado com este código para identificar a categoria do componente:
 * A prática recomendada é minimizar o número de componentes personalizados, aproveitar os componentes principais e usar os componentes principais com o Sistema de estilos para reduzir a dívida técnica.
 
 ## Possíveis soluções {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_guidance"
+>title="Diretrizes de implementação"
+>abstract="A prática recomendada é minimizar o número de componentes personalizados, aproveitar os componentes principais e usar os componentes principais com o Sistema de estilos para reduzir a dívida técnica."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componentes principais"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Sistema de estilos"
 
 * Encontre mais informações sobre os Componentes principais em [Introdução dos componentes principais](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR).
 * Encontre mais informações sobre o Sistema de estilos em [Usando o Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
