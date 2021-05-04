@@ -1,20 +1,27 @@
 ---
 title: PCX
 description: Página de ajuda do código do Detector de padrões
+exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 translation-type: tm+mt
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
-
 
 # PCX {#pcx}
 
 Complexidade da página
 
 ## Segundo plano {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_overview"
+>title="Complexidade da página"
+>abstract="O PCX identifica páginas que contêm um grande número de nós em sua estrutura."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Alterações importantes - AEM como um Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR" text="AEM as a Cloud Service - Notas de versão"
 
 `PCX` identifica páginas que contêm um grande número de nós em sua estrutura.
 
@@ -28,6 +35,12 @@ Os subtipos são usados para identificar os diferentes tipos de informações:
 * Um grande número de nós em uma página pode afetar seu desempenho de renderização.
 
 ## Possíveis soluções {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_guidance"
+>title="Diretrizes de implementação"
+>abstract="A prática recomendada é analisar a estrutura do conteúdo para reduzir a complexidade da página, o que ajudaria a melhorar o desempenho da renderização da página. Entre em contato com o Suporte do Adobe para obter ajuda e esclarecimentos"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
 
 * Execute etapas para reduzir o número total de nós em uma página, incluindo:
    * Verifique se não há contêineres desnecessários.
