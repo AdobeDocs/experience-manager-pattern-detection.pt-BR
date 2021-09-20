@@ -2,10 +2,9 @@
 title: URS
 description: Página de ajuda do código do Detector de padrões
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-translation-type: tm+mt
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -33,6 +32,7 @@ Os subtipos são usados para identificar tipos específicos de problemas de repo
 * `node.location`: Um nó no  `/etc` que foi modificado desde a instalação.
 * `workflow.location`: Um modelo de fluxo de trabalho ou iniciador em  `/etc/workflow`.
 * `package.structure`: Um pacote que contém conteúdo mutável e imutável.
+* `node.name.length`: Um nome de nó com comprimento não suportado.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
