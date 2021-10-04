@@ -2,10 +2,10 @@
 title: ACV
 description: Página de ajuda do código do Detector de padrões
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: d61fbb28fdf91fd9b356654d5cd2d50b156398c4
+source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 2%
 
 ---
 
@@ -26,19 +26,22 @@ Validador de conteúdo de ativos
 
 Os subtipos são usados para identificar os diferentes tipos de informações, como:
 
-* `assets.sanity.missing.jcrcontent`: Identifique as pastas com nós obrigatórios ausentes no repositório. A identificação de qualquer conteúdo ausente no repositório ajuda a impedir qualquer falha de recursos ou casos de uso.
+* `missing.jcrcontent`: Identifique as pastas com nós obrigatórios ausentes no repositório. A identificação de qualquer conteúdo ausente no repositório ajuda a impedir qualquer falha de recursos ou casos de uso.
+* `missing.original.rendition`: Identifique os ativos com uma representação original obrigatória ausente no repositório.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-Isso pode levar à falha de determinados recursos do Assets que dependem das propriedades herdadas no Experience Manager as a Cloud Service.
+* Isso pode levar à falha de determinados recursos do Assets que dependem das propriedades herdadas no Experience Manager as a Cloud Service.
+* O AEM Assets depende da existência da representação original. O processamento de ativos no Cloud Service entrará em um loop se a representação original estiver ausente.
 
 ## Possíveis soluções {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Diretrizes de implementação"
->abstract="O Adobe recomenda revisar a estrutura do conteúdo para evitar workflows quebrados que dependem das propriedades herdadas. Entre em contato com o Atendimento ao cliente para obter ajuda."
+>abstract="O Adobe recomenda revisar a estrutura do conteúdo para evitar workflows quebrados que dependem das propriedades herdadas. Entre em contato com o Atendimento ao cliente para obter ajuda&quot;.
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
 
 * Analise uma pasta se ela tiver um nó filho ausente. Crie os nós manualmente se o número de pastas for gerenciável, caso contrário, use um script.
+* Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Entre em contato com a [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou solucionar problemas.
