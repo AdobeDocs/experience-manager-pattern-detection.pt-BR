@@ -39,7 +39,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Diretrizes de implementação"
->abstract="O Adobe recomenda revisar a estrutura do conteúdo para evitar workflows quebrados que dependem das propriedades herdadas. Entre em contato com o Atendimento ao cliente para obter ajuda&quot;.
+>abstract="O Adobe recomenda revisar a estrutura do conteúdo para evitar workflows quebrados que dependem das propriedades herdadas. Entre em contato com o Atendimento ao cliente para obter ajuda."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
 
 * Analise uma pasta se ela tiver um nó filho ausente. Crie os nós manualmente se o número de pastas for gerenciável, caso contrário, use um script.
