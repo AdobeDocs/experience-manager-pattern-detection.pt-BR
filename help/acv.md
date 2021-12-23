@@ -1,8 +1,8 @@
 ---
 title: ACV
 description: Página de ajuda do código do Detector de padrões
-exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
+exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
+source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 2%
@@ -44,4 +44,4 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 
 * Analise uma pasta se ela tiver um nó filho ausente. Crie os nós manualmente se o número de pastas for gerenciável, caso contrário, use um script.
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
-* Entre em contato com a [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou solucionar problemas.
+* Entre em contato com a [Equipe de Atendimento ao Cliente do Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou dar resposta a preocupações.
