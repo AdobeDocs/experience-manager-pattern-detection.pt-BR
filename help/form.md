@@ -2,7 +2,7 @@
 title: FORMULÁRIO
 description: Página de ajuda do código do Detector de padrões
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 75024e4af3be2d58edf8b77de9a5e6b397bbdf5c
+source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Resolva os seguintes problemas, antes de migrar para o [!DNL Adobe Experience Ma
 
 * O componente CAPTCHA agora usa o serviço Google reCAPTCHA para validar CAPTCHA, por padrão. A opção de usar o Adobe Experience Manager para validar CAPTCHA está obsoleta. (FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] o aplicativo não está disponível para [!DNL Cloud Services]. (AEM_FORMS_APP)
-
 * [Serviços de documento](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) as etapas não estão disponíveis em Fluxos de trabalho AEM. (WORKFLOW_DOCSERVICES)
+
+* [!DNL AEM Forms] o aplicativo não está disponível para [!DNL Cloud Services]. (AEM_FORMS_APP)
 
 ## Possíveis soluções {#solutions}
 
@@ -92,10 +92,10 @@ Resolva os seguintes problemas, antes de migrar para o [!DNL Adobe Experience Ma
 
 * Use o Google reCaptcha em vez do serviço CAPTCHA fornecido pelo Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* O Adaptive Forms oferece um design responsivo. Esses formulários alteram a aparência, o design e a interatividade com base no dispositivo subjacente. Você pode continuar usando o Adaptive Forms em dispositivos móveis. Procure notas de versão mensais para obter informações sobre a disponibilidade do [!DNL AEM Forms] aplicativo. (AEM_FORMS_APP)
-
 * Não migre um modelo de Fluxo de trabalho AEM que use uma etapa do Fluxo de trabalho dos Serviços de documento. Além disso, não migre ou atualize o Adaptive Forms que envie dados do usuário para um Modelo de fluxo de trabalho que use as etapas do fluxo de trabalho dos serviços de documento ou altere a ação de envio para um [suportado um](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) antes de migrar o formulário. (WORKFLOW_DOCSERVICES)
 
 * O suporte para Forms adaptável baseado em XFA não está disponível imediatamente. Se você pretende usar o Forms adaptável baseado em XFA, entre em contato com o Suporte ao Adobe com detalhes do caso de uso e requisitos específicos.(XFA_BASED_FORM, XDP_BASED_FORM)
+
+* O Adaptive Forms oferece um design responsivo. Esses formulários alteram a aparência, o design e a interatividade com base no dispositivo subjacente. Você pode continuar usando o Adaptive Forms em dispositivos móveis. Procure notas de versão mensais para obter informações sobre a disponibilidade do [!DNL AEM Forms] aplicativo. (AEM_FORMS_APP)
 
 Entre em contato com o [Suporte a Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou dar resposta a preocupações.
