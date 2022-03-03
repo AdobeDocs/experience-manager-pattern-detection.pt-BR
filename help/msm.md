@@ -1,12 +1,11 @@
 ---
 title: MSM
-description: Página de ajuda do código do Detector de padrões
+description: Página de ajuda de códigos do detector de padrões
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-translation-type: tm+mt
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,14 +18,14 @@ Gerenciamento de vários sites
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Gerenciamento de vários sites"
->abstract="O MSM identifica informações gerais sobre o recurso AEM Multi Site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Alterações importantes - AEM como um Cloud Service"
+>abstract="O código MSM identifica informações gerais sobre o recurso Gerenciamento de vários sites do AEM. Essa informação é fornecida para ajudar a caracterizar o sistema."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=pt-BR" text="Alterações importantes no AEM as a Cloud Service"
 
-`MSM` O identifica informações gerais sobre o recurso AEM Multi Site Manager. Essas informações são fornecidas para ajudar a caracterizar o sistema.
+O código `MSM` identifica informações gerais sobre o recurso Gerenciamento de vários sites do AEM. Essas informações são fornecidas para ajudar a caracterizar o sistema.
 
 Os subtipos são usados para identificar diferentes tipos de informações:
 
-* `cq.livesyncconfig.found`: Detecção de um  `/jcr:content/cq:LiveSyncConfig` nó no conteúdo que foi adicionado ao AEM, que é uma indicação do uso do Multi Site Manager.
+* `cq.livesyncconfig.found`: Detecção de um nó `/jcr:content/cq:LiveSyncConfig` no conteúdo que foi adicionado ao AEM, que é uma indicação do uso do Gerenciamento de vários sites.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -36,7 +35,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é revisar todas as configurações de implementação do MSM personalizado e ações de implementação personalizadas e garantir que elas funcionem no AEM como um Cloud Service. Entre em contato com o Suporte do Adobe para obter ajuda e esclarecimentos"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
+>abstract="A prática recomendada é revisar todas as configurações de implantação do MSM personalizado e ações de implantação personalizadas e garantir que elas funcionem no AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
-* Entre em contato com a [AEM Equipe de suporte](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou solucionar problemas.
+* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
