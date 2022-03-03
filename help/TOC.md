@@ -1,15 +1,15 @@
 ---
 hide: true
 user-guide-title: Guia de detecção de padrões do Experience Manager
-breadcrumb-title: Detecção de padrão de AEM
-user-guide-description: Saiba mais sobre a Detecção de padrões do Adobe Experience Manager.
+breadcrumb-title: Detecção de padrões do AEM
+user-guide-description: Saiba mais sobre a detecção de padrões do Adobe Experience Manager.
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
 source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
-workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 2%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 + [[!DNL FORMS]](forms.md)
 + [INST](inst.md)
 + [IOI](ioi.md)
-+ [LOCAL](locp.md)
++ [LOCP](locp.md)
 + [LUI](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
@@ -44,4 +44,4 @@ ht-degree: 2%
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
-+ [TRAVÃO](wrk.md)
++ [WRK](wrk.md)
