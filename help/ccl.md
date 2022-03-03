@@ -1,12 +1,11 @@
 ---
 title: CCL
-description: Página de ajuda do código do Detector de padrões
+description: Página de ajuda de códigos do detector de padrões
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-translation-type: tm+mt
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +18,9 @@ Biblioteca de cliente personalizada
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Biblioteca de cliente personalizada"
->abstract="A CCL identifica as bibliotecas de clientes que foram instaladas no AEM. Estas informações são fornecidas para efeitos da avaliação das melhores práticas."
+>abstract="O código CCL identifica as bibliotecas de clientes que foram instaladas no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas."
 
-`CCL` identifica bibliotecas de clientes que foram instaladas no AEM. Estas informações são fornecidas para efeitos da avaliação das melhores práticas.
+O código `CCL` identifica bibliotecas de clientes que foram instaladas no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas.
 
 Um subtipo é usado com este código:
 * `custom.client.library`
@@ -35,7 +34,7 @@ Um subtipo é usado com este código:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="Diretrizes de implementação"
->abstract="As bibliotecas de clientes adicionadas a AEM identificadas pela CCL devem ser revisadas para garantir que não haja duplicação e que as versões mais recentes sejam usadas. Entre em contato com o Suporte do Adobe para obter ajuda e esclarecimentos"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
+>abstract="As bibliotecas de clientes adicionadas ao AEM identificadas pela CCL devem ser revisadas para garantir que não haja duplicação e que as versões mais recentes sejam usadas. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
-* Entre em contato com a [AEM Equipe de suporte](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou solucionar problemas.
+* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
