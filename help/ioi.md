@@ -1,12 +1,11 @@
 ---
 title: IOI
-description: Página de ajuda do código do Detector de padrões
+description: Página de ajuda de códigos do detector de padrões
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-translation-type: tm+mt
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +18,11 @@ Importação interna de Oak
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Importação interna de Oak"
->abstract="O código IOI identifica o uso de clientes de pacotes Oak internos, importando-os por meio de OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou serviços de AEM de baixo nível."
+>abstract="O código IOI identifica o uso de pacotes Oak internos por clientes, importando-os por meio de OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou por serviços de baixo nível do AEM."
 
-`IOI` O identifica o uso de clientes de pacotes Oak internos, importando-os por meio do OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou serviços de AEM de baixo nível.
+`IOI` identifica o uso de pacotes Oak internos por clientes, importando-os por meio do OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou por serviços de baixo nível do AEM.
 
-Alguns deles são usados por `com.adobe.granite.repository`, que configura um repositório para AEM durante a inicialização. Outro exemplo é o pacote de Adobe `com.adobe.granite.maintenance.oak`, que envolve e fornece tarefas de manutenção do Oak.
+Alguns deles são usados por `com.adobe.granite.repository`, que configura um repositório para o AEM durante a inicialização. Outro exemplo é o pacote Adobe `com.adobe.granite.maintenance.oak`, que contém e fornece tarefas de manutenção do Oak.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -35,9 +34,9 @@ Alguns deles são usados por `com.adobe.granite.repository`, que configura um re
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Diretrizes de implementação"
->abstract="Os clientes devem revisar seu código personalizado para identificar o uso dessas APIs e refatê-las para serem compatíveis com o AEM como um Cloud Service. Entre em contato com o Suporte do Adobe para obter ajuda e esclarecimentos"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte a Experience Cloud"
+>abstract="Os clientes devem revisar seu código personalizado para identificar o uso dessas APIs e fatorá-las novamente para que sejam compatíveis com o AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Use a API de recursos do Sling (ou a API JCR) em vez de acesso de baixo nível.
-* Evite depender de pacotes internos que não fazem parte de nenhuma API pública ou SPI.
-* Entre em contato com a [AEM Equipe de suporte](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou solucionar problemas.
+* Evite depender de pacotes internos que não fazem parte de nenhuma API ou SPI pública.
+* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
