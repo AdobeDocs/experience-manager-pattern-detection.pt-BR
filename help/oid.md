@@ -4,7 +4,7 @@ description: Página de ajuda de códigos do detector de padrões
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '485'
 ht-degree: 100%
 
 ---
