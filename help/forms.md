@@ -3,9 +3,9 @@ title: FORM
 description: Página de ajuda de códigos do detector de padrões
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Resolva os seguintes problemas antes de migrar para o [!DNL Adobe Experience Man
 
 * A etapa Verificar não está disponível. (VERIFY_STEP)
 
-* A ação enviar **[!UICONTROL Enviar para o Forms Workflow]** não está disponível. No AEM 6.5 Forms e versões anteriores, a Ação de envio foi usada para enviar dados de formulário adaptáveis ao AEM Forms herdado em fluxos de trabalho e LiveCycles Workflow JEE. (LC_WORKFLOW_SUBMISSION)
+* A Ação de envio **[!UICONTROL Enviar para o Forms Workflow]** não está disponível. No AEM Forms 6.5 e em versões anteriores, a Ação de envio era usada para enviar dados de formulários adaptáveis para o AEM Forms herdado em fluxos de trabalho do JEE e do LiveCycle. (LC_WORKFLOW_SUBMISSION)
 
 * O recurso Comunicações interativas não está disponível.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -68,7 +68,7 @@ Resolva os seguintes problemas antes de migrar para o [!DNL Adobe Experience Man
 >id="aemcloud_bpa_forms_guidance"
 >title="Diretrizes de implementação"
 >abstract="As informações expostas por meio do código FORMS podem fornecer orientação sobre substituições e outras ações necessárias para tornar alguns recursos e APIs compatíveis com o Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Use o utilitário de migração para converter todos os scripts de regras no seu ambiente em funções reutilizáveis. Você pode usar as funções reutilizáveis com o Editor de regras visuais para continuar tendo os resultados obtidos com scripts de regras. (CODE_EDITOR)
 
@@ -82,9 +82,9 @@ Resolva os seguintes problemas antes de migrar para o [!DNL Adobe Experience Man
 
 * Remova a etapa de verificação dos seus formulários adaptáveis existentes antes de movê-los para um ambiente [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifique seus formulários adaptáveis existentes para usar as ações enviar [Enviar para endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#submit-to-rest-endpoint), [Enviar email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#send-email), [Enviar usando o Modelo de dados de formulário](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#submit-using-form-data-model) e [Chamar um fluxo de trabalho do AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#invoke-an-aem-workflow)
+* Modifique seus formulários adaptáveis existentes para usar as Ações de envio [Enviar para endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#submit-to-rest-endpoint), [Enviar email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#send-email), [Enviar usando o Modelo de dados de formulário](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#submit-using-form-data-model) e [Chamar um fluxo de trabalho do AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#invoke-an-aem-workflow)
 
-* Você pode desenvolver um fluxo de trabalho do AEM e modificar seus formulários adaptáveis existentes para usar a ação enviar do [fluxo de trabalho do AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) para enviar dados para um fluxo de trabalho do AEM em vez de usar a ação enviar **[!UICONTROL Enviar para o Forms Workflow]**. Você pode desenvolver uma ação enviar personalizada para enviar dados, anexos ou Documento de registro (DoR) para um processo do LiveCycle em vez de usar [!UICONTROL Enviar para o Forms Workflow]. (LC_WORKFLOW_SUBMmission)
+* Você pode desenvolver um fluxo de trabalho do AEM e modificar seus formulários adaptáveis existentes para usar a ação enviar do [fluxo de trabalho do AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#invoke-an-aem-workflow) para enviar dados para um fluxo de trabalho do AEM em vez de usar a ação enviar **[!UICONTROL Enviar para o Forms Workflow]**. Você pode desenvolver uma ação enviar personalizada para enviar dados, anexos ou Documento de registro (DoR) para um processo do LiveCycle em vez de usar [!UICONTROL Enviar para o Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Verifique as notas de versão mensais para obter informações sobre a disponibilidade do recurso Comunicações interativas. Não migre suas comunicações interativas, cartas e dicionários relacionados para um ambiente Cloud Service até que o recurso não esteja disponível. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
