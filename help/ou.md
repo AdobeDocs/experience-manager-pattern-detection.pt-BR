@@ -4,7 +4,7 @@ description: Página de ajuda de códigos do detector de padrões
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 8b8d902dc5b5a8534475d256c199dc235bb35464
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Uso desatualizado
 >abstract="A OU identifica a situação em que alguns nós do JCR, como componentes do Sling ou do AEM, ou exportações de API OSGi, são alterados ou removidos de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização. Eles podem ser atualizados para uma versão não compatível ou podem simplesmente não estar disponíveis."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=pt-BR" text="Alterações importantes no AEM as a Cloud Service"
 
-`OU` identifica a situação em que alguns nós do JCR, como componentes do Sling ou do AEM, ou exportações de API OSGi, são alterados ou removidos de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização. Eles podem ser atualizados para uma versão não compatível ou podem simplesmente não estar disponíveis.
+O código `OU` identifica a situação em que alguns nós do JCR, como componentes do Sling ou do AEM ou exportações OSGi de API, são alterados ou removidos de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização. Eles podem ser atualizados para uma versão não compatível ou podem simplesmente não estar disponíveis.
 
 Como as versões antigas não são instaladas por padrão, o aplicativo do cliente pode não funcionar corretamente.
 
