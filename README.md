@@ -1,14 +1,13 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 # Detecção de padrão do Adobe Experience Manager
 
-Este é o repositório para a Detecção de padrões do Adobe Experience Manager.
+Este é o repositório da Detecção de padrão do Adobe Experience Manager.
 
 Suas contribuições para a documentação são bem-vindas. Consulte os seguintes recursos:
 
