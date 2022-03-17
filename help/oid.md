@@ -2,8 +2,8 @@
 title: OID
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ O código `OID` identifica problemas relacionados às definições do índice Oa
 
 Os subtipos são usados para identificar os diferentes tipos de informações:
 
-* `custom.index.violation`: uma incompatibilidade do índice Oak personalizado com o AEM as a Cloud Service.
+* `index.rule.violation`: uma incompatibilidade do índice Oak personalizado com o AEM as a Cloud Service.
 * `standard.index.modification`: uma modificação em um índice Oak padrão.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
@@ -35,7 +35,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações:
 >title="Diretrizes de implementação"
 >abstract="A prática recomendada é revisar todos os índices personalizados e reestruturados de acordo com as diretrizes de indexação de conteúdo. Use o conversor de índice para migrar as definições de índice Oak personalizado existentes para a definição de índice Oak personalizado compatível do AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR#oak-indexes" text="Diretrizes de empacotamento"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=pt-BR#refactoring-tools" text="Conversor de índice"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Conversor de índice"
 
 * As modificações nas definições de índice Oak padrão podem ser perdidas durante uma atualização do AEM.
 * As definições do Oak são imutáveis, devem ser empacotadas com o código do projeto do cliente e só devem ser implantadas usando o Cloud Manager.
