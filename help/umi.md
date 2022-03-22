@@ -3,9 +3,9 @@ title: UMI
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: e72ddc20578f8ca736da198e626478816e7ca641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ As seguintes configurações são verificadas para procurar por modificações:
    * A atualização pode ficar paralisada (por exemplo, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` estava ausente, mas presente em `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Problemas de autorização podem ocorrer após a atualização (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Certas funcionalidades podem não funcionar conforme esperado. Por exemplo, alterar o `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` pode resultar na não compilação de alguns arquivos JSP, o que resultará em perda de funcionalidade.
-   * Os valores da configuração do externalizador `com.day.cq.commons.impl.ExternalizerImpl` são definidas por variáveis de ambiente do cloud manager em AEM as a Cloud Service.
+   * Os valores da configuração `com.day.cq.commons.impl.ExternalizerImpl` do externalizador são definidos por variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
 
 ## Possíveis soluções {#solutions}
 
@@ -45,9 +45,9 @@ As seguintes configurações são verificadas para procurar por modificações:
 >id="aemcloud_bpa_umi_guidance"
 >title="Diretrizes de implementação"
 >abstract="A prática recomendada é rever as configurações atuais e reverter quaisquer alterações feitas nas configurações mencionadas para evitar problemas futuros de atualização. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Não altere ou remova as quatro configurações mencionadas acima.
 * Se as configurações foram alteradas, elas deverão ser restauradas aos seus valores esperados. Esses valores são indicados nas mensagens do `UMI`.
-* Para `com.day.cq.commons.impl.ExternalizerImpl`, consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) para definir a configuração do externalizador usando variáveis de ambiente do cloud manager em AEM as a Cloud Service.
+* Para `com.day.cq.commons.impl.ExternalizerImpl`, consulte a [documentação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=pt-BR) para definir a configuração do externalizador usando variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
