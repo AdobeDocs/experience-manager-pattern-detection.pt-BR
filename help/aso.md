@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Visão geral do sistema AEM
 >id="aemcloud_bpa_aso_overview"
 >title="Visão geral do sistema AEM"
 >abstract="O código ASO identifica informações gerais sobre a instância do AEM. Cada descoberta fornece um valor para um tipo específico de informações do sistema que pode ajudar no planejamento da migração e no esforço de refatoração."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR" text="O AEM as a Cloud Service - notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="O AEM as a Cloud Service - notas de versão"
 
 O código `ASO` identifica informações gerais sobre a instância do AEM. Cada descoberta fornece um valor de um tipo específico de informação do sistema.
 
@@ -42,7 +42,8 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-* A versão do AEM, contagens de nó, associação de grupo, armazenamento de nó, tipos de implementação de armazenamento de dados, Contagem de tag CQ, Contagem de tag inteligente, versão do Componente principal e tipo de instância do AEM são fornecidas para fins informativos.
+* A versão de AEM, contagens de nó, associação de grupo, armazenamento de nó, tipos de implementação de armazenamento de dados, Contagem de tags CQ, Contagem de tags inteligentes, Versão do componente principal, tipo de instância AEM e Contagem de ativos não processados são fornecidas para fins informativos.
+* O maior número de URLs personalizadas (>1000) pode colocar uma carga no Dispatcher e nos servidores de Publicação com consultas caras.
 * O aplicativo personalizado pode depender de produtos ou recursos não disponíveis no AEM as a Cloud Service.
 * Atualizar com recursos não compatíveis pode resultar em uma falha de atualização e em um aplicativo não funcional.
 
@@ -52,8 +53,10 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >id="aemcloud_bpa_aso_guidance"
 >title="Diretrizes de implementação"
 >abstract="As informações expostas por meio do código ASO fornecem informações gerais para seu ambiente AEM, incluindo versões, complementos de produtos, informações de nível de sistema e devem ser revisadas para todos os produtos ou recursos não compatíveis com o AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos."
->additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Atualizações do AEM com produtos ou recursos não compatíveis não são recomendadas e podem não ter suporte.
+* Os ativos não processados devem ser processados e a propriedade dam:assetState no nó jcr:content do Ativo deve ser definida como &quot;processada&quot; ou remover esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
+* URLs personalizadas podem ser substituídas por regravações do Apache.
 * Revise as [notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR) para saber mais sobre as últimas mudanças no AEM as a Cloud Service.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
