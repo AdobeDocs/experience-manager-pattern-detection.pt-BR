@@ -2,9 +2,9 @@
 title: REP
 description: Página de ajuda de códigos do detector de padrões
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 254d530763c2fbddcb8203895662bfe1c7f66483
 workflow-type: ht
-source-wordcount: '426'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,13 @@ Agente de replicação
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR#no-reverse-replication-agents" text="Diretrizes de desenvolvimento"
 
 O código `REP` identifica agentes de replicação ativados. Eles são relatados por causa do potencial para problemas que devem ser abordados ao atualizar para o AEM as a Cloud Service.
+
+Os subtipos são usados para identificar diferentes tipos de informações:
+
+* `forward.replication`: Identifique os agentes de replicação direta ativados.
+* `reverse.replication`: Identifique os agentes de replicação inversa ativados.
+* `standard.replication.agent.modification`: Identifique os agentes de replicação padrão ativados que são modificados.
+* `custom.replication.agent.detection`: Identifique os agentes de replicação personalizados ativados.
 
 O AEM as a Cloud Service usa o [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) para distribuir conteúdo do autor para os ambientes de publicação. Isso é feito fora do tempo de execução do AEM usando o serviço de pipeline do Adobe I/O. Isso é configurado automaticamente no ambiente provisionado do AEM as a Cloud Service.
 
