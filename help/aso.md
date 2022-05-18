@@ -4,8 +4,8 @@ description: Página de ajuda de códigos do detector de padrões
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-* A versão de AEM, contagens de nó, associação de grupo, armazenamento de nó, tipos de implementação de armazenamento de dados, Contagem de tags CQ, Contagem de tags inteligentes, Versão do componente principal, tipo de instância AEM e Contagem de ativos não processados são fornecidas para fins informativos.
-* O maior número de URLs personalizadas (>1000) pode colocar uma carga no Dispatcher e nos servidores de Publicação com consultas caras.
+* A versão do AEM, contagens de nós, associação ao grupo, armazenamento de nós, tipos de implementação de armazenamento de dados, contagem de tags CQ, contagem de tags inteligentes, versão do componente principal, tipo de instância do AEM e contagem de ativos não processados são fornecidos para fins informativos.
+* O maior número de URLs personalizados (>1000) pode sobrecarregar o Dispatcher e os servidores de publicação com consultas caras.
 * O aplicativo personalizado pode depender de produtos ou recursos não disponíveis no AEM as a Cloud Service.
 * Atualizar com recursos não compatíveis pode resultar em uma falha de atualização e em um aplicativo não funcional.
 
@@ -56,7 +56,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Atualizações do AEM com produtos ou recursos não compatíveis não são recomendadas e podem não ter suporte.
-* Os ativos não processados devem ser processados e a propriedade dam:assetState no nó jcr:content do Ativo deve ser definida como &quot;processada&quot; ou remover esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
-* URLs personalizadas podem ser substituídas por regravações do Apache.
+* Os ativos não processados devem ser processados e a propriedade dam:assetState no nó jcr:content do ativo deve ser definida como “processado” ou remover esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
+* URLs personalizados podem ser substituídos por regravações do Apache.
 * Revise as [notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR) para saber mais sobre as últimas mudanças no AEM as a Cloud Service.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
