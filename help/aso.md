@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * `instance.type`: o tipo de instância AEM (author|publish).
 * `unprocessed.asset.count`: o número de ativos não processados.
 * `vanity.url.count`: o número de URLs personalizados.
+* `index.size`: Tamanho total do índice Lucene migrável.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
