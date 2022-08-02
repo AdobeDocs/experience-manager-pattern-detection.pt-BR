@@ -3,9 +3,9 @@ title: CTEM
 description: Página de ajuda de códigos do detector de padrões
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Os modelos são identificados por um valor de tipo primário de &quot;cq:Templat
 >id="aemcloud_bpa_ctem_guidance"
 >title="Diretrizes de implementação"
 >abstract="A prática recomendada é mover todos os modelos estáticos para modelos editáveis. Os clientes podem aproveitar as Ferramentas de modernização do AEM existentes para migrar Modelos estáticos para Modelos editáveis."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="Modelos editáveis"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=pt-BR" text="Modelos editáveis"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Ferramentas de modernização do AEM"
 
 * A prática recomendada é mover todos os modelos estáticos para modelos editáveis.
@@ -43,9 +43,9 @@ Os modelos são identificados por um valor de tipo primário de &quot;cq:Templat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Ferramentas e recursos"
->abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem manipular a estrutura de uma página, de uma definição estática para um modelo editável. O objetivo é ajudar os clientes a migrar das funcionalidades limitadas dos recursos herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis, com reconhecimento de configuração e extensíveis. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
+>abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem manipular a estrutura de uma página, de uma definição estática para um modelo editável. O objetivo é ajudar os clientes a migrar das funcionalidades limitadas dos recursos herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis, extensíveis e possuem reconhecimento de configuração. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Conversor de estrutura de página"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Aproveite as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar Modelos estáticos para Modelos editáveis.
 * Encontre mais informações sobre Modelos editáveis em [Modelos](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=pt-BR).
