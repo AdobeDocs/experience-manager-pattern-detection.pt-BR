@@ -2,10 +2,10 @@
 title: LUI
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +42,8 @@ e o valor da propriedade `sling:resourceType` não contém &quot;granite/ui/comp
    * Os modelos de fragmento de conteúdo podem ser encontrados nos seguintes locais:
       * Os modelos de fragmento de conteúdo prontos para uso são armazenados no `/libs/settings/dam/cfm/templates`
       * Eles podem ser sobrepostos no  `/apps/settings/dam/cfm/templates`  ou  `/conf/.../settings/dam/cfm/templates`(... = global ou “locatário”)
+* `translation.dictionary`: Dicionário I18n presente em /apps.
+   * /apps é imutável no tempo de execução e o translator.html não estaria mais disponível no AEM como um serviço em nuvem.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -54,6 +56,7 @@ e o valor da propriedade `sling:resourceType` não contém &quot;granite/ui/comp
 * A interface clássica não está mais disponível no AEM as a Cloud Service. A interface padrão para criação é a interface habilitada para toque.
 * Depender de componentes personalizados herdados pode aumentar os custos de manutenção ao longo do tempo.
 * Os modelos de fragmento de conteúdo foram substituídos por modelos de fragmento de conteúdo no AEM 6.3. A migração de fragmentos de conteúdo baseados em modelos herdados para AEM as a Cloud Service manterá esses fragmentos como funcionais, mas não será possível criar novos fragmentos com base no modelo herdado. Também não será possível entregar esses fragmentos usando o AEM GraphQL, que exige modelos de fragmento de conteúdo como esquemas.
+* /apps é imutável no tempo de execução e o translator.html não estaria mais disponível no AEM como um serviço em nuvem. Dessa forma, os dicionários I18n precisam vir do Git por meio do pipeline de CI/CD.
 
 ## Possíveis soluções {#solutions}
 
@@ -62,7 +65,7 @@ e o valor da propriedade `sling:resourceType` não contém &quot;granite/ui/comp
 >title="Ferramentas e recursos"
 >abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem converter caixas de diálogo clássicas (ExtJS) em caixas de diálogo Coral. O objetivo é ajudar os clientes a migrar dos recursos não compatíveis ou herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis, extensíveis e possuem reconhecimento de configuração. Além disso, explore a substituição de componentes personalizados pelo conjunto de componentes principais padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Conversor de componentes"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR" text="Componentes principais"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componentes principais"
 
 * Utilizar o [Conjunto de ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) para reduzir o esforço necessário para modernizar suas implementações do AEM Sites. Essas ferramentas incluem a conversão de:
    * Caixas de diálogo clássicas (ExtJS) para caixas de diálogo Coral
@@ -71,4 +74,5 @@ e o valor da propriedade `sling:resourceType` não contém &quot;granite/ui/comp
    * Desenhos e caixas de diálogo de design para políticas de modelos editáveis
 * Revise a biblioteca de componentes personalizados do seu projeto e faça a transição, se possível, para o conjunto de [Componentes principais](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR) padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos.
 * É recomendável criar modelos de fragmento de conteúdo com recursos equivalentes aos modelos herdados e usar esses modelos para a criação de fragmentos de conteúdo dali em diante.Consulte [Modelos de fragmentos do conteúdo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=pt-BR) para obter mais detalhes.
+* Os dicionários I18n precisam vir do Git por meio do pipeline de CI/CD. [Documentação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
