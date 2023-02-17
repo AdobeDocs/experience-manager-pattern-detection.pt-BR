@@ -2,10 +2,10 @@
 title: ACV
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,14 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * `missing.jcrcontent`: Identifique as pastas com nós obrigatórios ausentes no repositório. A identificação de qualquer conteúdo ausente no repositório ajuda a impedir qualquer falha de recursos ou casos de uso.
 * `missing.original.rendition`: Identifique os ativos com uma representação original obrigatória ausente no repositório. Observe que a visualização de páginas de PDF não requer a geração de subativos no AEMaaCS. Portanto, para arquivos PDF, os subativos de relatórios que não têm representação original são suprimidos.
 * `metadata.descendants.violation`: Identifique os ativos com mais de 100 descendentes no nó de metadados do ativo no repositório.
+* `conflict.node`: Identifique a presença de nós de conflito no repositório em /content/dam/ path.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 * Isso pode levar à falha de determinados recursos do Assets que dependem das propriedades herdadas no Experience Manager as a Cloud Service.
 * O AEM Assets depende da existência da representação original. O processamento de ativos no Cloud Service entrará em um loop se a representação original estiver ausente. A geração de subativos não é permitida no AEMaaCS.
 * O alto número de descendentes no nó de metadados pode retardar o carregamento de pastas que consistem em ativos que violam isso.
+* A presença de nós de conflito pode levar a uma falha de assimilação AEM as a Cloud Service.
 
 ## Possíveis soluções {#solutions}
 
@@ -47,4 +49,5 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * Analise uma pasta se ela tiver um nó filho ausente. Crie os nós manualmente se o número de pastas for gerenciável, caso contrário, use um script.
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Nenhuma ação necessária para a representação original de subativos ausentes.
+* No caso de nós em conflito, eles devem ser resolvidos ou podem precisar ser excluídos antes de migrar para AEM as a Cloud Service.
 * Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
