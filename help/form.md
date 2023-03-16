@@ -3,7 +3,7 @@ title: FORM
 description: Página de ajuda de códigos do detector de padrões
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 100%
 

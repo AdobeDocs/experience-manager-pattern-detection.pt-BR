@@ -3,7 +3,7 @@ title: OU
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 8b8d902dc5b5a8534475d256c199dc235bb35464
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 

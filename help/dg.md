@@ -31,7 +31,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 * `maintenance.task.configuration`: a configuração de uma determinada atividade de manutenção periódica.
 * `sling.commons.scheduler`: o uso da API do Sling Commons Scheduler para uma tarefa agendada.
 * `unsupported.asset.api`: o uso de APIs incompatíveis do Asset Manager no código do aplicativo.
-* `javax.jcr.observation.EventListener`: o uso do Ouvinte de eventos no código do aplicativo.
+* `javax.jcr.observation.EventListener`: O uso do Ouvinte de eventos no código do aplicativo.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -54,7 +54,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Aplicativos dependentes de ouvinte de eventos podem não funcionar como esperado porque a execução não pode ser garantida.
+   * Os aplicativos dependentes do ouvinte de eventos podem não funcionar como esperado porque a execução não pode ser garantida.
 
 
 ## Possíveis soluções {#solutions}
@@ -82,5 +82,5 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
    * Em vez de usar APIs incompatíveis do Asset Manager, use o [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * Em vez de usar o Ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) de transformação.
+   * Em vez de usar o Ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Trabalhos Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) , na medida em que proporciona a garantia de transformação.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.

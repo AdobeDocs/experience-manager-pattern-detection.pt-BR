@@ -38,7 +38,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * O AEM Assets depende da existência da representação original. O processamento de ativos no Cloud Service entrará em um loop se a representação original estiver ausente. A geração de subativos não é permitida no AEMaaCS.
 * O alto número de descendentes no nó de metadados pode retardar o carregamento de pastas que consistem em ativos que violam isso.
 * A presença de nós em conflito pode levar a uma falha de assimilação no AEM as a Cloud Service.
-* O Experience Manager pode não processar arquivos PSB de resolução muito alta. Os clientes que usam o ImageMagick para processar arquivos grandes podem enfrentar um impacto no desempenho se o benchmark adequado do servidor Experience Manager não for feito.
+* O Experience Manager pode não processar arquivos PSB de alta resolução. Os clientes que usam o ImageMagick para processar arquivos grandes podem enfrentar um impacto no desempenho se a análise comparativa adequada do servidor Experience Manager não for feita.
 
 ## Possíveis soluções {#solutions}
 
@@ -52,5 +52,5 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Nenhuma ação necessária para a representação original de subativos ausentes.
 * No caso de nós em conflito, ou eles devem ser resolvidos ou podem precisar ser excluídos antes de migrar para o AEM as a Cloud Service.
-* Entre em contato com o Suporte ao cliente do Adobe se planejar processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
+* Entre em contato com o Suporte ao cliente do Adobe se você planeja processar muitos arquivos grandes do PSD ou PSB. O Experience Manager pode não processar arquivos PSB de alta resolução com mais de 30000 x 23000 pixels. Consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
 * Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
