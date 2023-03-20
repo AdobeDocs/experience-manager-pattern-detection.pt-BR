@@ -4,8 +4,8 @@ description: Página de ajuda de códigos do detector de padrões
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * `missing.original.rendition`: Identifique os ativos com uma representação original obrigatória ausente no repositório. Observe que a visualização de páginas de PDF não requer a geração de subativos no AEMaaCS. Portanto, para arquivos PDF, os subativos de relatórios que não têm representação original são suprimidos.
 * `metadata.descendants.violation`: Identifique os ativos com mais de 100 descendentes no nó de metadados do ativo no repositório.
 * `conflict.node`: Identifique a presença de nós em conflito no repositório no caminho /content/dam.
-* `psb.file.large`: Identifique arquivos PSB grandes (dc:format : application/vnd.3gpp.pic-bw-small) com tamanho superior a 2 gigabytes.
+* `psb.file.large`: identifique arquivos PSB grandes (dc:format : application/vnd.3gpp.pic-bw-small) com tamanho superior a 2 gigabytes.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -38,7 +38,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * O AEM Assets depende da existência da representação original. O processamento de ativos no Cloud Service entrará em um loop se a representação original estiver ausente. A geração de subativos não é permitida no AEMaaCS.
 * O alto número de descendentes no nó de metadados pode retardar o carregamento de pastas que consistem em ativos que violam isso.
 * A presença de nós em conflito pode levar a uma falha de assimilação no AEM as a Cloud Service.
-* O Experience Manager pode não processar arquivos PSB de alta resolução. Os clientes que usam o ImageMagick para processar arquivos grandes podem enfrentar um impacto no desempenho se a análise comparativa adequada do servidor Experience Manager não for feita.
+* O Experience Manager pode não processar arquivos PSB de resolução muito alta. Os clientes que usam o ImageMagick para processar arquivos grandes podem sofrer um impacto negativo no desempenho se a avaliação referencial adequada do servidor do Experience Manager não for feita.
 
 ## Possíveis soluções {#solutions}
 
@@ -52,5 +52,5 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Nenhuma ação necessária para a representação original de subativos ausentes.
 * No caso de nós em conflito, ou eles devem ser resolvidos ou podem precisar ser excluídos antes de migrar para o AEM as a Cloud Service.
-* Entre em contato com o Suporte ao cliente do Adobe se você planeja processar muitos arquivos grandes do PSD ou PSB. O Experience Manager pode não processar arquivos PSB de alta resolução com mais de 30000 x 23000 pixels. Consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
+* Entre em contato com o Suporte ao cliente da Adobe caso você planeje processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=pt-BR).
 * Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
