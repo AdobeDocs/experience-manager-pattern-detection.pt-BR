@@ -2,7 +2,7 @@
 title: ACV
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -52,5 +52,5 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Nenhuma ação necessária para a representação original de subativos ausentes.
 * No caso de nós em conflito, ou eles devem ser resolvidos ou podem precisar ser excluídos antes de migrar para o AEM as a Cloud Service.
-* Entre em contato com o Suporte ao cliente da Adobe caso você planeje processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=pt-BR).
+* Entre em contato com o Suporte ao cliente da Adobe caso você planeje processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=pt-BR).
 * Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
