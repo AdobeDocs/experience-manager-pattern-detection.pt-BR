@@ -3,9 +3,9 @@ title: ASO
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * `unprocessed.asset.count`: o número de ativos não processados.
 * `vanity.url.count`: o número de URLs personalizados.
 * `index.size`: tamanho total do índice Lucene migrável.
-* `workflow.count`: O número de workflows do autor em execução e no estado obsoleto.
+* `workflow.count`: o número de fluxos de trabalho do autor em execução e no estado obsoleto.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -48,7 +48,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * O maior número de URLs personalizados (>1000) pode sobrecarregar o Dispatcher e os servidores de publicação com consultas caras.
 * O aplicativo personalizado pode depender de produtos ou recursos não disponíveis no AEM as a Cloud Service.
 * Atualizar com recursos não compatíveis pode resultar em uma falha de atualização e em um aplicativo não funcional.
-* Um alto número de fluxos de trabalho de criação em execução ou em estado obsoleto pode degradar o desempenho.
+* Um alto número de fluxos de trabalho do autor em execução ou em estado obsoleto pode degradar o desempenho.
 
 ## Possíveis soluções {#solutions}
 
