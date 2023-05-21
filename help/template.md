@@ -2,7 +2,7 @@
 title: MODELO
 description: Modelo para a página de ajuda do código do Detector de padrões
 source-git-commit: 79561c1f0f5bab7c070557e3fd950c728c33e79c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
