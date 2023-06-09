@@ -2,7 +2,7 @@
 title: OID
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -25,7 +25,7 @@ O código `OID` identifica problemas relacionados às definições do índice Oa
 
 Os subtipos são usados para identificar os diferentes tipos de informações:
 
-* `index.rule.violation`: uma incompatibilidade do índice Oak personalizado com o AEM as a Cloud Service.
+* `index.rule.violation`: uma incompatibilidade do índice Oak personalizado com o AEM as a Cloud Service
 * `standard.index.modification`: uma modificação em um índice Oak padrão.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
