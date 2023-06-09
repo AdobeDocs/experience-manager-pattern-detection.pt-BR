@@ -3,7 +3,7 @@ title: CTEM
 description: Página de ajuda de códigos do detector de padrões
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
