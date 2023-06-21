@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * O aplicativo personalizado pode depender de produtos ou recursos não disponíveis no AEM as a Cloud Service.
 * Atualizar com recursos não compatíveis pode resultar em uma falha de atualização e em um aplicativo não funcional.
 * Um alto número de fluxos de trabalho do autor em execução ou em estado obsoleto pode degradar o desempenho.
+* Consultas lentas podem prejudicar o desempenho do sistema.
 
 ## Possíveis soluções {#solutions}
 
@@ -61,5 +62,6 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * Atualizações do AEM com produtos ou recursos não compatíveis não são recomendadas e podem não ter suporte.
 * Os ativos não processados devem ser processados e a propriedade dam:assetState no nó jcr:content do ativo deve ser definida como “processado” ou remover esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
 * URLs personalizados podem ser substituídos por regravações do Apache.
+* Consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) para solucionar problemas de consultas lentas.
 * Revise as [notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR) para saber mais sobre as últimas mudanças no AEM as a Cloud Service.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
