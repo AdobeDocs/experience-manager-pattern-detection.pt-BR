@@ -2,10 +2,10 @@
 title: DG
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 * `sling.commons.scheduler`: o uso da API do Sling Commons Scheduler para uma tarefa agendada.
 * `unsupported.asset.api`: o uso de APIs incompatíveis do Asset Manager no código do aplicativo.
 * `javax.jcr.observation.EventListener`: O uso de um ouvinte de eventos no código do aplicativo.
+* `custom.guava.cache`: O uso do cache Guava no código do aplicativo.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -55,6 +56,9 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `javax.jcr.observation.EventListener`
    * Aplicativos dependentes do ouvinte de eventos podem não funcionar conforme o esperado porque a execução não pode ser garantida.
+
+* `custom.guava.cache`
+   * O uso do cache de goiaba pode causar problemas de desempenho no AEM.
 
 
 ## Possíveis soluções {#solutions}
@@ -83,4 +87,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `javax.jcr.observation.EventListener`
    * Em vez de usar o ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), pois isso proporciona a garantia de processamento.
+
+* `custom.guava.cache`
+   * Os caches, se necessário, devem ser criados fora do AEM. A solução de cache externa pode ser considerada.
 * Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
