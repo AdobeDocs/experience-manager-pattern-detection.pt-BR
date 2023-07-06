@@ -2,9 +2,9 @@
 title: URS
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ O código `URS` identifica casos de estrutura de repositório e características
 
 * O código de produto do AEM sempre será colocado em `/libs`, que não deve ser substituído por código personalizado.
 * Códigos personalizados devem ser colocados em `/apps`, `/content` e `/conf`.
-* O AEM as a Cloud Service não é compatível com nomes de nó longos (>150 bytes).
 * É altamente recomendável que essas diretrizes sejam seguidas para o AEM as a Cloud Service.
 
 Os subtipos são usados para identificar tipos específicos de problemas de repositório que devem ser abordados:

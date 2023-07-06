@@ -2,10 +2,10 @@
 title: CDW
 description: Página de ajuda de códigos do detector de padrões
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,10 @@ Dispositivo de diálogo personalizado
 >title="Dispositivo de diálogo personalizado"
 >abstract="O CDW identifica os Dispositivos de diálogo personalizados que devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service."
 
-`CDW` Os Dispositivos de diálogo personalizados identificam os dispositivos de diálogo personalizados CoralUI e Classic. Eles devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service.
+`CDW`  Os Dispositivos de diálogo personalizados identificam os dispositivos de diálogo clássicos personalizados. Eles devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service.
 
-Os subtipos são usados para identificar os diferentes tipos de informações, como:
+Os subtipos são usados para identificar as informações, como:
 
-* `custom.coral.widget`: identificar os dispositivos de diálogo personalizados com base no CoralUI 2 ou CoralUI 3.
 * `custom.classic.widget`: identificar os dispositivos de diálogo personalizados com base em ExtJs.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
@@ -40,5 +39,4 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Os Dispositivos de diálogo clássicos personalizados devem ser convertidos de ExtJS para [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Os Dispositivos de diálogo Coral personalizados devem ser avaliados para atualização para CoralUI 3.
 * Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
