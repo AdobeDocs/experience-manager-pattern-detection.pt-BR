@@ -4,7 +4,7 @@ description: Página de ajuda de códigos do detector de padrões
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -17,7 +17,7 @@ Problema de configuração incorreta
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="Problema de configuração incorreta"
->abstract="MI identifica problemas de configuração na instância AEM"
+>abstract="O MI identifica problemas de configuração na instância do AEM"
 
 `MI`  O erro de configuração identifica problemas de configuração na instância do AEM.
 
