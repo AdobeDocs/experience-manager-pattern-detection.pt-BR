@@ -3,9 +3,9 @@ title: ACV
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * `metadata.descendants.violation`: Identifique os ativos com mais de 100 descendentes no nó de metadados do ativo no repositório.
 * `conflict.node`: Identifique a presença de nós em conflito no repositório no caminho /content/dam.
 * `psb.file.large`: identifique arquivos PSB grandes (dc:format : application/vnd.3gpp.pic-bw-small) com tamanho superior a 2 gigabytes.
-* `invalid.asset.name`: Identifique ativos com caracteres inválidos[* / : [\] | # % { } ? &amp;] no nome.
+* `invalid.asset.name`: identifique ativos com caracteres inválidos [* / : [\] | # % { } ? &amp;] no nome.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
