@@ -3,8 +3,8 @@ title: CAV
 description: Página de ajuda de códigos do detector de padrões
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '366'
+workflow-type: ht
+source-wordcount: '320'
 ht-degree: 100%
 
 ---

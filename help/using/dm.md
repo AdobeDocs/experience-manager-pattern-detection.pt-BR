@@ -3,8 +3,8 @@ title: DM
 description: Página de ajuda de códigos do detector de padrões
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '201'
+workflow-type: ht
+source-wordcount: '169'
 ht-degree: 100%
 
 ---

@@ -3,8 +3,8 @@ title: URC
 description: Página de ajuda de códigos do detector de padrões
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '319'
+workflow-type: ht
+source-wordcount: '258'
 ht-degree: 100%
 
 ---

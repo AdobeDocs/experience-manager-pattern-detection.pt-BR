@@ -3,8 +3,8 @@ title: ECU
 description: Página de ajuda de códigos do detector de padrões
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '264'
+workflow-type: ht
+source-wordcount: '235'
 ht-degree: 100%
 
 ---

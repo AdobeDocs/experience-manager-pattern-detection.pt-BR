@@ -3,8 +3,8 @@ title: MI
 description: Página de ajuda de códigos do detector de padrões
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
-workflow-type: tm+mt
-source-wordcount: '255'
+workflow-type: ht
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
