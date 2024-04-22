@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 92%
 
 ---
 
@@ -44,4 +44,4 @@ Um subtipo é usado com este código para identificar a categoria do componente:
 
 * Encontre mais informações sobre os Componentes principais em [Introdução aos componentes principais](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR).
 * Encontre mais informações sobre o Sistema de estilos em [Uso do sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=pt-BR#page-authoring).
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

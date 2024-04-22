@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `java.io.inputstream`
    * Use uma abordagem de upload binário direto na qual o binário seja adicionado diretamente ao armazenamento de dados.
-   * Para casos de uso de ativos, use o [aem-upload](https://github.com/adobe/aem-upload). Para outros tipos de binários, a lógica de upload personalizada pode ser modelada seguindo esse mesmo padrão.
+   * Para casos de uso de ativos, consulte [aem-upload](https://github.com/adobe/aem-upload). Para outros tipos de binários, a lógica de upload personalizada pode ser modelada seguindo esse mesmo padrão.
 
 * `maintenance.task.configuration`
    * Revise a documentação de [Tarefa de manutenção](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=pt-BR) do AEM as a Cloud Service.
@@ -83,11 +83,11 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
    * Se possível, a execução de trabalhos de longa duração deve ser evitada.
 
 * `unsupported.asset.api`
-   * Em vez de usar APIs incompatíveis do Asset Manager, use o [aem-upload](https://github.com/adobe/aem-upload).
+   * Em vez de usar APIs incompatíveis do Asset Manager, consulte [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * Em vez de usar o ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), pois isso proporciona a garantia de processamento.
 
 * `custom.guava.cache`
    * Os caches, se necessário, devem ser criados fora do AEM. Uma solução de armazenamento em cache externa pode ser considerada.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

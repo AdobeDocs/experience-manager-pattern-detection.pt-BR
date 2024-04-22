@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 95%
 
 ---
 
@@ -48,11 +48,11 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >id="aemcloud_bpa_acv_guidance"
 >title="Diretrizes de implementação"
 >abstract="A Adobe recomenda revisar a estrutura do conteúdo para evitar fluxos de trabalho quebrados que dependem de propriedades herdadas. Entre em contato com o Atendimento ao cliente para obter ajuda."
->additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
 
 * Analise uma pasta se ela tiver um nó filho ausente. Crie os nós manualmente se o número de pastas for gerenciável, caso contrário, use um script.
 * Para os ativos que não têm a representação original, faça upload novamente dos ativos ou exclua-os antes de migrar.
 * Nenhuma ação necessária para a representação original de subativos ausentes.
 * No caso de nós em conflito, ou eles devem ser resolvidos ou podem precisar ser excluídos antes de migrar para o AEM as a Cloud Service.
-* Entre em contato com o Suporte ao cliente da Adobe caso você planeje processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=pt-BR).
-* Entre em contato com a [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com o Suporte ao cliente da Adobe caso você planeje processar muitos arquivos PSD ou PSB grandes. O Experience Manager pode não processar arquivos PSB de resolução muito alta com mais de 30.000 x 23.000 pixels. Consulte [documentação](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=pt-BR).
+* Entre em contato com [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) clarificações ou para dar resposta a preocupações.

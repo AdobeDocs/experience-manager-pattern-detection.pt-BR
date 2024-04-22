@@ -1,11 +1,11 @@
 ---
 title: URS
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +49,7 @@ Os subtipos são usados para identificar tipos específicos de problemas de repo
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR" text="Diretrizes de estrutura de projetos do AEM"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
-* Consulte [Reestruturação do repositório](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=pt-BR) para obter orientação sobre como se preparar para o AEM as a Cloud Service.
+* Consulte [Reestruturação do repositório](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=pt-BR) para orientação sobre como se preparar para o AEM as a Cloud Service.
 * Consulte também [Estrutura de projeto do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR) para saber mais sobre áreas mutáveis e imutáveis do repositório.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
 * Aproveite o [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html?lang=pt-BR#refactoring-tools) para reestruturar pacotes de projetos existentes separando o conteúdo e o código em pacotes discretos para serem compatíveis com a estrutura do projeto definida para o Adobe Experience Manager as a Cloud Service.

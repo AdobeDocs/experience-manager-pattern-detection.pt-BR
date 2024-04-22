@@ -1,11 +1,11 @@
 ---
 title: CCL
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 88%
 
 ---
 
@@ -37,4 +37,4 @@ Um subtipo é usado com este código:
 >abstract="As bibliotecas de clientes adicionadas ao AEM identificadas pela CCL devem ser revisadas para garantir que não haja duplicação e que as versões mais recentes sejam usadas. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

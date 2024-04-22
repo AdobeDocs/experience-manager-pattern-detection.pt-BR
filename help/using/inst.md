@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +59,4 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * Revise como [incorporar pacotes de terceiros](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR#embedding-3rd-party-packages) no seu projeto para o AEM as a Cloud Service.
 * Os pacotes de terceiros devem aderir às orientações de [desenvolvimento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR) e [embalagem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=pt-BR) do AEM as a Cloud Service.
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) e entenda como as [violações do INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) podem ser corrigidas e compatíveis com o AEM as a Cloud Service.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

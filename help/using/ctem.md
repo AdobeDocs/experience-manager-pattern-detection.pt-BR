@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 93%
 
 ---
 
@@ -49,4 +49,4 @@ Os modelos são identificados por um valor de tipo primário de &quot;cq:Templat
 
 * Aproveite as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar Modelos estáticos para Modelos editáveis.
 * Encontre mais informações sobre Modelos editáveis em [Modelos](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=pt-BR).
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

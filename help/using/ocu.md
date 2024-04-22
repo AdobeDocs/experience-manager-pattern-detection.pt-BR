@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ Como as versões antigas não são instaladas por padrão, o aplicativo do clien
 
 * A curto prazo: a instalação do pacote de compatibilidade pode ajudar.
 * A longo prazo: adapte o código do cliente para usar a versão mais recente de componentes ou APIs do AEM.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

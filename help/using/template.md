@@ -1,10 +1,10 @@
 ---
 title: MODELO
-description: Modelo para a página de ajuda do código do Detector de padrões
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+description: Modelo para a página de ajuda do código do Detector de padrões.
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 83%
 
 ---
 
@@ -33,4 +33,4 @@ Responda à pergunta: &quot;O que posso fazer sobre isso?&quot;
 
 * possível solução nº 1
 * possível solução nº 2
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

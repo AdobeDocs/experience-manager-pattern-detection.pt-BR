@@ -1,11 +1,11 @@
 ---
 title: LOCP
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 61%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Substituição de pacotes personalizados"
 >abstract="O código LOCP identifica a detecção de um pacote personalizado que fornece conteúdo para /libs, que é um antipadrão (exceto no caso de ACLs)."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=pt-BR" text="Atualizações sustentáveis"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=pt-BR#platform" text="Fusão de recursos do Sling"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusão de recursos do Sling"
 
-O código `LOCP` identifica a detecção de um pacote personalizado que entrega conteúdo para `/libs`, que é um antipadrão (exceto no caso de ACLs).
+O código LOCP identifica a detecção de um pacote personalizado que entrega conteúdo para `/libs`, que é um antipadrão (exceto no caso de ACLs).
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-* O código do cliente pode ser excluído ou substituído para qualquer atualização importante do AEM, CFP ou SP.
-* Em alguns casos, o novo conteúdo pode não ser instalado corretamente.
+* O código do cliente pode ser excluído ou substituído para qualquer atualização importante de CFP, SP ou AEM.
+* Às vezes, o novo conteúdo pode não ser instalado corretamente.
 
 ## Possíveis soluções {#solutions}
 
@@ -35,8 +35,8 @@ O código `LOCP` identifica a detecção de um pacote personalizado que entrega 
 >id="aemcloud_bpa_locp_guidance"
 >title="Diretrizes de implementação"
 >abstract="Os clientes devem revisar seu código personalizado e pacotes para identificar se o conteúdo é entregue a /libs e refatorar para depender da sobreposição do conteúdo em /apps e torná-lo compatível com o AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=pt-BR#platform" text="Sobreposições"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sobreposições"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Os pacotes do cliente devem implantar conteúdo em `/apps` em vez de `/libs`.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) se precisar de esclarecimentos ou dúvidas.

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '530'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 # Contribuição na documentação do Adobe Experience Manager
@@ -13,11 +13,11 @@ Esse arquivo descreve como colaborar, além de apontar as diretrizes que devem s
 
 ## Código de conduta de código aberto da Adobe
 
-Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md). Ao contribuir com a documentação do AEM, você concorda em seguir este código de conduta. Informe comportamentos inaceitáveis no seguinte email: [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md). Ao contribuir com a documentação do AEM, você concorda em seguir este código de conduta. Relatar comportamento inaceitável para [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Diretrizes de contribuição
 
-Embora qualquer contribuição para aprimorar a documentação do AEM seja bem-vinda, pedimos que as contribuições sigam algumas diretrizes e normas sempre que possível. Consulte as [Diretrizes de contribuição na documentação do AEM](guidelines.md) para obter mais informações.
+Embora qualquer contribuição para aprimorar a documentação do AEM seja bem-vinda, pedimos que as contribuições sigam algumas diretrizes e normas sempre que possível. Revise o [Diretrizes para contribuir com a documentação do AEM](guidelines.md) para obter mais informações.
 
 ## Como colaborar
 
@@ -34,7 +34,7 @@ O método de escolha depende do quanto você se sente confortável em editar a d
 
 ### Criação de um tópico {#create-an-issue}
 
-Você tem uma sugestão, uma observação sobre os documentos atuais ou alguma dúvida relacionada à maneira como algo está descrito? Nesse caso, crie um tópico. Tópicos são excelentes se você tiver alguma contribuição, mas não se sente confortável em editar os documentos ou criar um pull request.
+Você tem uma sugestão, uma observação sobre os documentos atuais ou alguma dúvida relacionada à maneira como algo está descrito? Em seguida, crie um problema. Tópicos são excelentes se você tiver alguma contribuição, mas não se sente confortável em editar os documentos ou criar um pull request.
 
 Com os tópicos, você pode descrever facilmente sua ideia para aprimorar os documentos, e um membro da equipe do AEM Docs pode revisá-la. Basta clicar no link **registrar um tópico** na parte superior do painel de navegação direito em qualquer página para criar um tópico.
 

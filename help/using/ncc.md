@@ -1,11 +1,11 @@
 ---
 title: NCC
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -40,4 +40,4 @@ O código `NCC` identifica a situação em que alguns nós ou pacotes JCR são a
 
 * Sobrepor ou fazer referência somente a componentes compatíveis com o Sling.
 * Considere adaptar os recursos provenientes de `/libs` ou pacotes após uma atualização do AEM.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

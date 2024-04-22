@@ -1,11 +1,11 @@
 ---
 title: OID
-description: Página de ajuda de códigos do detector de padrões
+description: Página de ajuda do código do Detector de padrões.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 95%
 
 ---
 
@@ -54,5 +54,5 @@ Os subtipos são usados para identificar os diferentes tipos de informações:
 * Siga as [diretrizes de empacotamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR) do AEM as a Cloud Service para implantar definições de índice Oak novas ou personalizadas.
 * Os índices padrão do AEM personalizados e as novas definições de índice Oak personalizadas devem seguir as [diretrizes de indexação de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=pt-BR#preparing-the-new-index-definition) para o AEM as a Cloud Service.
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) e entenda como as [violações de OID](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) podem ser corrigidas para se tornarem compatíveis com o AEM as a Cloud Service.
-* Entre em contato com a [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou fazer considerações.
+* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
 * Use o [Conversor de índice](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=pt-BR#refactoring-tools) para migrar as definições de índice Oak personalizadas existentes para as definições de índice Oak personalizadas compatíveis com o AEM as a Cloud Service.
