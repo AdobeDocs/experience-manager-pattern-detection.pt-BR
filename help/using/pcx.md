@@ -20,7 +20,7 @@ Complexidade da página
 >title="Complexidade da página"
 >abstract="O PCX identifica páginas que contêm um grande número de nós em sua estrutura."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
 
 O PCX identifica páginas que contêm muitos nós em sua estrutura.
 

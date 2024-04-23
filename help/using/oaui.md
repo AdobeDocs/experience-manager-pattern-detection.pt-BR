@@ -19,7 +19,7 @@ Instância de usuários do OAuth
 >id="aemcloud_bpa_oaui_overview"
 >title="Instância de usuários do OAuth"
 >abstract="O código OAUI identifica o padrão em que há pelo menos um usuário configurado relacionado ao OAuth que requer a migração correta. O OAuth é configurado para usuários quando há um subnó chamado oauth diretamente em um nó rep:AuthorizableId, na forma de /home/user-path/user-node/oauth"
->additional-url="https://experienceleague.adobe.com/br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
 
 O código OAUI identifica o padrão em que há pelo menos um usuário configurado relacionado ao OAuth que requer a migração correta.
 

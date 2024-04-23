@@ -20,7 +20,7 @@ Problema de Configuração Incorreta de Atualização
 >title="Problema de Configuração Incorreta de Atualização"
 >abstract="O código UMI identifica modificações em determinadas configurações do OSGi que causam problemas ao atualizar, incluindo uma atualização com falha ou funcionalidade reduzida."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
 
 O código UMI identifica modificações em determinadas configurações do OSGi que causam problemas ao atualizar, incluindo uma atualização com falha ou funcionalidade reduzida.
 

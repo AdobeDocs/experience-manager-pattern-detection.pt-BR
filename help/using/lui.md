@@ -64,14 +64,14 @@ e a variável `sling:resourceType` o valor da propriedade não contém &quot;gra
 >title="Ferramentas e recursos"
 >abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem converter caixas de diálogo clássicas (ExtJS) em caixas de diálogo Coral. O objetivo é ajudar os clientes a migrar dos recursos não compatíveis ou herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis, extensíveis e possuem reconhecimento de configuração. Além disso, explore a substituição de componentes personalizados pelo conjunto de componentes principais padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Conversor de componentes"
->additional-url="https://experienceleague.adobe.com/br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
 
 * Para reduzir o esforço necessário para modernizar suas implementações do AEM Sites, use [Conjunto de ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/). Essas ferramentas incluem a conversão de:
    * Caixas de diálogo clássicas (ExtJS) para caixas de diálogo Coral
    * Componentes de base para Componentes principais
    * Modelos estáticos e controle de coluna para modelos editáveis e grade responsiva
    * Desenhos e caixas de diálogo de design para políticas de modelos editáveis
-* Revise a biblioteca de componentes personalizados do seu projeto e faça a transição, se possível, para o conjunto de [Componentes principais](https://experienceleague.adobe.com/br/docs/experience-manager-core-components/using/introduction) padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos.
+* Revise a biblioteca de componentes personalizados do seu projeto e faça a transição, se possível, para o conjunto de [Componentes principais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction) padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos.
 * Crie modelos de fragmento de conteúdo com recursos equivalentes aos modelos herdados e use esses modelos para a criação de fragmentos de conteúdo no futuro. Consulte [Modelos de fragmentos do conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models) para obter mais detalhes.
 * `I18n` Os dicionários devem vir do Git por meio do pipeline de CI/CD. [Documentação](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
 * Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
