@@ -2,10 +2,10 @@
 title: CCOM
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Componente personalizado
 >title="Componente personalizado"
 >abstract="O CCOM identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para subsidiar a avaliação de práticas recomendadas"
 
-`CCOM` identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas.
+O CCOM identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas.
 
 Um subtipo é usado com este código para identificar a categoria do componente:
 
@@ -31,17 +31,17 @@ Um subtipo é usado com este código para identificar a categoria do componente:
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-* A prática recomendada é minimizar o número de componentes personalizados, aproveitar os componentes principais e usá-los com o Sistema de estilos para reduzir a dívida técnica.
+* A prática recomendada é minimizar o número de componentes personalizados, usar os componentes principais e usá-los com o Sistema de estilos para que você possa reduzir débitos técnicos.
 
 ## Possíveis soluções {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é minimizar o número de componentes personalizados, aproveitar os componentes principais e usá-los com o Sistema de estilos para reduzir a dívida técnica."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR" text="Componentes principais"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=pt-BR#page-authoring" text="Sistema de estilos"
+>abstract="A prática recomendada é minimizar o número de componentes personalizados, usar os componentes principais e usá-los com o Sistema de estilos para reduzir débitos técnicos."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Sistema de estilos"
 
-* Encontre mais informações sobre os Componentes principais em [Introdução aos componentes principais](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=pt-BR).
-* Encontre mais informações sobre o Sistema de estilos em [Uso do sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=pt-BR#page-authoring).
+* Encontre mais informações sobre os Componentes principais em [Introdução aos componentes principais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction).
+* Encontre mais informações sobre o Sistema de estilos em [Uso do sistema de estilos](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
 * Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

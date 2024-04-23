@@ -2,10 +2,10 @@
 title: DG
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 94%
+source-wordcount: '597'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ Diretriz do desenvolvedor
 >id="aemcloud_bpa_dg_overview"
 >title="Diretrizes do desenvolvedor"
 >abstract="O código DG identifica desvios das orientações de desenvolvimento selecionadas para o AEM 6.5 e AEM as a Cloud Service. Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=pt-BR" text="Desenvolvimento do AEM - diretrizes e práticas recomendadas"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR" text="Diretrizes de desenvolvimento do AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desenvolvimento do AEM - diretrizes e práticas recomendadas"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento do AEM as a Cloud Service"
 
 
-O código `DG` identifica desvios das diretrizes de desenvolvimento selecionadas para o [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=pt-BR) e [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR). Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service.
+A DG identifica desvios das orientações para o desenvolvimento [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service.
 
 Os subtipos são usados para identificar os diferentes tipos de violações detectadas:
 
@@ -45,7 +45,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `sling.commons.scheduler`
    * Aplicativos dependentes de tarefas em segundo plano usando o [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) podem não funcionar como esperado porque a execução não pode ser garantida no AEM as a Cloud Service.
-   * As orientações de desenvolvimento do AEM as a Cloud Service para [tarefas em segundo plano e tarefas de longa duração](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR#background-tasks-and-long-running-jobs) sugerem que o código executado como uma tarefa agendada deve supor que a instância em que está sendo executada pode ser desativada a qualquer momento. Portanto, o código deve ser resiliente e retomável.
+   * Diretrizes para [tarefas em segundo plano e tarefas de longa duração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) sugira que o código executado como uma tarefa agendada também deve supor que a instância em que está sendo executada pode ser desativada a qualquer momento. Portanto, o código deve ser resiliente e retomável.
 
 * `unsupported.asset.api`
    * As seguintes APIs do Asset Manager são marcadas como incompatíveis no AEM as a Cloud Service.
@@ -66,21 +66,21 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="Diretrizes de implementação"
->abstract="Seguindo as diretrizes e práticas recomendadas de desenvolvimento do AEM, os clientes devem revisar suas implementações sobre o uso do Sling Commons Scheduler e reestruturá-las para Sling Jobs, reestruturar suas tarefas de manutenção do sistema, revisar a transmissão de quaisquer dados binários e refatorar seu código para ser compatível com o AEM as a Cloud Service."
+>abstract="Revise suas implementações sobre o uso do Sling Commons Scheduler. Reestruturá-los para Sling Jobs, reestruturar suas tarefas de manutenção do sistema, revisar a transmissão de quaisquer dados binários e refatorar seu código para ser compatível com o AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=pt-BR" text="Tarefas de manutenção no AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="Tarefas de manutenção no AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Use uma abordagem de upload binário direto na qual o binário seja adicionado diretamente ao armazenamento de dados.
    * Para casos de uso de ativos, consulte [aem-upload](https://github.com/adobe/aem-upload). Para outros tipos de binários, a lógica de upload personalizada pode ser modelada seguindo esse mesmo padrão.
 
 * `maintenance.task.configuration`
-   * Revise a documentação de [Tarefa de manutenção](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=pt-BR) do AEM as a Cloud Service.
-   * Certifique-se de que a [Configuração da tarefa de manutenção](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=pt-BR#maintenance-tasks-configuration-in-source-control) esteja no controle de origem.
+   * Revise a documentação de [Tarefa de manutenção](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance) do AEM as a Cloud Service.
+   * Certifique-se de que a [Configuração da tarefa de manutenção](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) esteja no controle de origem.
 
 * `sling.commons.scheduler`
    * Substitua o uso do [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) pelo [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), que dispõe de uma garantia de ao menos uma execução.
-   * Se possível, a execução de trabalhos de longa duração deve ser evitada.
+   * Trabalhos de longa duração devem ser evitados.
 
 * `unsupported.asset.api`
    * Em vez de usar APIs incompatíveis do Asset Manager, consulte [aem-upload](https://github.com/adobe/aem-upload).
@@ -89,5 +89,5 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
    * Em vez de usar o ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), pois isso proporciona a garantia de processamento.
 
 * `custom.guava.cache`
-   * Os caches, se necessário, devem ser criados fora do AEM. Uma solução de armazenamento em cache externa pode ser considerada.
+   * Se necessário, os caches devem ser criados fora do AEM. Uma solução de armazenamento em cache externa pode ser considerada.
 * Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.

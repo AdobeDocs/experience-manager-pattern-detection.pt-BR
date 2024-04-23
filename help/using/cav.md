@@ -2,10 +2,10 @@
 title: CAV
 description: Página de ajuda do código do Detector de padrões.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Para tornar mais seguro e fácil para os clientes compreenderem quais as áreas 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Diretrizes de implementação"
->abstract="Os padrões identificados com o CAS, onde existem diferentes violações de área de conteúdo, devem ser revisados. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte da Adobe para obter ajuda e esclarecimentos."
+>abstract="Os padrões identificados com o CAS, onde existem diferentes violações de área de conteúdo, devem ser revisados. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte do Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
