@@ -2,9 +2,9 @@
 title: CAV
 description: Página de ajuda do código do Detector de padrões.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ Violação da área de conteúdo
 >abstract="O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo. Essa violação forneceria uma visão geral sobre sobreposições, conteúdo restrito que pode precisar ser alterado após ser movido para o AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusão de recursos do Sling"
 
-O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
+`CAV` Identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
 
 O processamento de solicitações do Sling define como o conteúdo de um recurso, suas `sling:resourceType` é usada para determinar o script usado para renderizar o conteúdo. Consulte [Localização de script](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações. O Sling também fornece técnicas para acessar e mesclar recursos por meio de &quot;Sobreposições&quot; e &quot;Substituições&quot;. Elas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e em [Sobreposições](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
@@ -37,7 +37,7 @@ Para tornar mais seguro e fácil para os clientes compreenderem quais as áreas 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Diretrizes de implementação"
->abstract="Os padrões identificados com o CAS, onde existem diferentes violações de área de conteúdo, devem ser revisados. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte do Adobe para obter ajuda ou esclarecimentos."
+>abstract="Os padrões identificados com o CAS, onde existem diferentes violações de área de conteúdo, devem ser revisados. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 

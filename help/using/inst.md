@@ -2,10 +2,10 @@
 title: INST
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 76%
+source-wordcount: '446'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ Artefato instalado
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Diretrizes de pacotes - AEM as a Cloud Service"
 
-O código INST identifica pacotes e conjuntos personalizados e de terceiros que foram instalados no AEM pelo cliente. Eles são relatados para ajudar a caracterizar o estado do sistema como o escopo geral de um esforço de atualização.
+`INST`  Identifica pacotes e conjuntos personalizados e de terceiros que foram instalados no AEM pelo cliente. Eles são relatados para ajudar a caracterizar o estado do sistema como o escopo geral de um esforço de atualização.
 
 Quando várias versões de um pacote tiverem sido instaladas, somente a versão mais recente será relatada.
 

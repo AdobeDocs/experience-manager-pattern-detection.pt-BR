@@ -2,9 +2,9 @@
 title: WRK
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ Fluxo de trabalho
 >abstract="O código WRK identifica uma conclusão relacionada a um modelo de fluxo de trabalho ou iniciador. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service. Com o AEM as a Cloud Service, o processamento de ativos agora é realizado pelos microsserviços de ativos."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microsserviços de ativos"
 
-O código WRK identifica uma conclusão relacionada a um modelo de fluxo de trabalho ou iniciador. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service.
+`WRK`  Identifica uma conclusão relacionada a um modelo de fluxo de trabalho ou iniciador. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service.
 
 Um subtipo é usado para identificar o tipo de problema de fluxo de trabalho detectado no momento.
 

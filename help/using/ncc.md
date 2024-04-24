@@ -2,10 +2,10 @@
 title: NCC
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 65%
+source-wordcount: '193'
+ht-degree: 56%
 
 ---
 
@@ -22,7 +22,7 @@ Alterações não compatíveis
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de versão - AEM as a Cloud Service"
 
-O código NCC identifica a situação em que alguns nós ou pacotes JCR são alterados de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização.
+`NCC`  Identifica a situação em que alguns nós ou pacotes JCR são alterados de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 

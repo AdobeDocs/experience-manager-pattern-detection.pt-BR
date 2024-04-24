@@ -2,9 +2,9 @@
 title: OAUI
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ Instância de usuários do OAuth
 >abstract="O código OAUI identifica o padrão em que há pelo menos um usuário configurado relacionado ao OAuth que requer a migração correta. O OAuth é configurado para usuários quando há um subnó chamado oauth diretamente em um nó rep:AuthorizableId, na forma de /home/user-path/user-node/oauth"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="O AEM as a Cloud Service - notas de versão"
 
-O código OAUI identifica o padrão em que há pelo menos um usuário configurado relacionado ao OAuth que requer a migração correta.
+`OAUI`  Identifica o padrão em que há pelo menos um usuário configurado relacionado ao OAuth que requer a migração correta.
 
 O OAuth é configurado para usuários quando há um subnó chamado `oauth` diretamente em um nó `rep:AuthorizableId`, na forma de `/home/user-path/user-node/oauth`.
 

@@ -2,10 +2,10 @@
 title: OID
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Definição de índice Oak
 >abstract="O código OID identifica problemas relacionados às definições do índice Oak. Ele identifica modificações que foram feitas nas definições padrão do índice Oak. Também identifica definições de índice Oak personalizadas incompatíveis com o AEM as a Cloud Service. A mensagem para cada OID encontrado identifica o índice e fornece informações adicionais."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Diretrizes de indexação de conteúdo"
 
-O código OID identifica problemas relacionados às definições do índice Oak. Ele identifica modificações que foram feitas nas definições padrão do índice Oak. Também identifica definições de índice Oak personalizadas incompatíveis com o AEM as a Cloud Service. A mensagem para cada `OID` A conclusão identifica o índice e fornece informações adicionais.
+`OID`  Identifica problemas relacionados às definições do índice Oak. Ele identifica modificações que foram feitas nas definições padrão do índice Oak. Também identifica definições de índice Oak personalizadas incompatíveis com o AEM as a Cloud Service. A mensagem para cada `OID` A conclusão identifica o índice e fornece informações adicionais.
 
 Os subtipos são usados para identificar os diferentes tipos de informações:
 

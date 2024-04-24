@@ -2,10 +2,10 @@
 title: IOI
 description: Página de ajuda do código do Detector de padrões.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 89%
+source-wordcount: '219'
+ht-degree: 64%
 
 ---
 
@@ -18,9 +18,9 @@ Importação interna de Oak
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Importação interna de Oak"
->abstract="O código IOI identifica o uso de pacotes Oak internos por clientes, importando-os por meio de OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou por serviços de baixo nível do AEM."
+>abstract="O código IOI identifica o uso de pacotes Oak internos por clientes, importando-os por meio de OSGi. São exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou serviços de AEM de baixo nível."
 
-`IOI` identifica o uso de pacotes Oak internos por clientes, importando-os por meio do OSGi. Normalmente, são exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou por serviços de baixo nível do AEM.
+`IOI`  Identifica o uso de pacotes Oak internos por clientes, importando-os por meio do OSGi. São exportados sem qualquer versão específica e destinam-se ao consumo apenas por outros pacotes Oak ou serviços de AEM de baixo nível.
 
 Alguns deles são usados por `com.adobe.granite.repository`, que configura um repositório para o AEM durante a inicialização. Outro exemplo é o pacote Adobe `com.adobe.granite.maintenance.oak`, que contém e fornece tarefas de manutenção do Oak.
 

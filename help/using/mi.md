@@ -2,10 +2,10 @@
 title: MI
 description: Página de ajuda do código do Detector de padrões.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Problema de configuração incorreta
 >title="Problema de configuração incorreta"
 >abstract="O MI identifica problemas de configuração na instância do AEM"
 
-MI Misconfiguration Issue identifica problemas de configuração na instância do AEM.
+`MI` (Problema de configuração incorreta) Identifica problemas de configuração na instância do AEM.
 
 Os subtipos são usados para identificar os diferentes tipos de informações, como:
 

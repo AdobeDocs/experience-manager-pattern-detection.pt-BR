@@ -2,10 +2,10 @@
 title: INS
 description: Página de ajuda do código do Detector de padrões.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ Namespace inválido
 >title="Namespace inválido"
 >abstract="O INS identifica problemas de namespace na instância do AEM"
 
-`INS` Namespace inválido identifica problemas de namespace na instância do AEM.
+`INS`  (Namespace inválido) Identifica problemas de namespace na instância AEM.
 
 Os subtipos são usados para identificar os diferentes tipos de informações, como:
 
@@ -28,7 +28,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-* Não é possível replicar o conteúdo (entre camadas) ou copiar o conteúdo (entre ambientes — via `/crx/packMgr` ou Cópia de conteúdo).
+* Não é possível replicar o conteúdo (entre camadas) ou copiar o conteúdo (entre camadas) `env`, a título de `/crx/packMgr`, ou Cópia de conteúdo).
 
 ## Possíveis soluções {#solutions}
 

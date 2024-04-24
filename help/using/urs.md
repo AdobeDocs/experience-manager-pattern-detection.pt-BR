@@ -2,10 +2,10 @@
 title: URS
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Estrutura de repositório não compatível
 
 ## Segundo plano {#background}
 
-O código URS identifica casos de estrutura de repositório e características de nó não compatíveis. A partir do AEM 6.4, foram fornecidas orientações para a reestruturação do conteúdo de repositórios. Ao definir claramente hierarquias para código de produto do AEM e código de cliente e evitar conflitos entre elas, o conteúdo está sendo reestruturado da pasta `/etc` para outras pastas no repositório, seguindo as seguintes regras de alto nível:
+`URS`  Identifica casos de estrutura de repositório e características de nó não compatíveis. A partir do AEM 6.4, foram fornecidas orientações para a reestruturação do conteúdo de repositórios. Ao definir claramente hierarquias para código de produto do AEM e código de cliente e evitar conflitos entre elas, o conteúdo está sendo reestruturado da pasta `/etc` para outras pastas no repositório, seguindo as seguintes regras de alto nível:
 
 * O código do produto AEM é sempre colocado em `/libs`, que não deve ser substituído pelo código personalizado.
 * O código personalizado deve ser colocado em `/apps`, `/content`, e `/conf`.

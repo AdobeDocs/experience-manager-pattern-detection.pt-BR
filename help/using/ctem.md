@@ -2,9 +2,9 @@
 title: CTEM
 description: Página de ajuda do código do Detector de padrões.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ Modelo personalizado
 >title="Modelo personalizado"
 >abstract="O código CTEM identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para subsidiar a avaliação de práticas recomendadas"
 
-O código CTEM identifica modelos personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas.
+`CTEM`  Identifica modelos personalizados que foram instalados no AEM. Estas informações são fornecidas para efeitos de avaliação de práticas recomendadas.
 
 Os modelos são identificados por um valor de tipo primário de `cq:Template`. Um subtipo é usado com este código para identificar a categoria do modelo:
 

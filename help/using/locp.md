@@ -2,9 +2,9 @@
 title: LOCP
 description: Página de ajuda do código do Detector de padrões.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusão de recursos do Sling"
 
-O código LOCP identifica a detecção de um pacote personalizado que entrega conteúdo para `/libs`, que é um antipadrão (exceto no caso de ACLs).
+`LOCP`  Identifica a detecção de um pacote personalizado que entrega conteúdo para `/libs`, que é um antipadrão (exceto no caso de ACLs).
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 

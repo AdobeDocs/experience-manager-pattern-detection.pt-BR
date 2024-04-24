@@ -2,10 +2,10 @@
 title: LUI
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 58%
+source-wordcount: '703'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,7 @@ Interface do usuário herdada
 >abstract="O código LUI identifica o uso de elementos obsoletos da interface do usuário que não são recomendados ou não são compatíveis em versões posteriores do AEM e do AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
 
-O código LUI identifica o uso de elementos obsoletos da interface do usuário que não são recomendados ou não são compatíveis em versões posteriores do AEM e do AEM as a Cloud Service.
+`LUI`  Identifica o uso de elementos obsoletos da interface do usuário que não são recomendados ou não são compatíveis em versões posteriores do AEM e no AEM as a Cloud Service.
 
 Os subtipos são usados para identificar os diferentes tipos de elementos da interface do usuário que devem ou precisam ser atualizados:
 

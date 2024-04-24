@@ -2,9 +2,9 @@
 title: MSM
 description: Página de ajuda do código do Detector de padrões.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ Gerenciador de vários sites
 >abstract="O código MSM identifica informações gerais sobre o recurso AEM Multi-site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
 
-O código MSM identifica informações gerais sobre o recurso AEM Multi-site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema.
+`MSM`  Identifica informações gerais sobre o recurso AEM Multi-site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema.
 
 Os subtipos são usados para identificar diferentes tipos de informações:
 
