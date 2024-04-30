@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 76%
+ht-degree: 89%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 76%
 
 Diretriz do desenvolvedor
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_overview"
 >title="Diretrizes do desenvolvedor"
 >abstract="O código DG identifica desvios das orientações de desenvolvimento selecionadas para o AEM 6.5 e AEM as a Cloud Service. Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desenvolvimento do AEM - diretrizes e práticas recomendadas"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento do AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Diretrizes e práticas recomendadas de desenvolvimento do AEM"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento do AEM as a Cloud Service"
 
 
-`DG`  Identifica desvios das diretrizes de desenvolvimento selecionadas para [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service.
+`DG`  Identifica desvios das diretrizes de desenvolvimento selecionadas para [AEM 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguir as práticas recomendadas pode melhorar a capacidade de manutenção e o desempenho do seu sistema. Embora alguns desses desvios possam não ser um problema em outros contextos de aplicativo, incluindo em versões anteriores do AEM, eles podem causar problemas quando usados com o AEM as a Cloud Service.
 
 Os subtipos são usados para identificar os diferentes tipos de violações detectadas:
 
@@ -66,16 +66,16 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="Diretrizes de implementação"
->abstract="Revise suas implementações sobre o uso do Sling Commons Scheduler. Reestruturá-los para Sling Jobs, reestruturar suas tarefas de manutenção do sistema, revisar a transmissão de quaisquer dados binários e refatorar seu código para ser compatível com o AEM as a Cloud Service."
+>abstract="Revise suas implementações sobre o uso do Sling Commons Scheduler. Reestruture-os para tarefas do Sling, reestruture suas tarefas de manutenção do sistema, revise a transmissão de qualquer dado binário e refatore seu código para ficar em conformidade com o AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="Tarefas de manutenção no AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/maintenance" text="Tarefas de manutenção no AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Use uma abordagem de upload binário direto na qual o binário seja adicionado diretamente ao armazenamento de dados.
-   * Para casos de uso de ativos, consulte [aem-upload](https://github.com/adobe/aem-upload). Para outros tipos de binários, a lógica de upload personalizada pode ser modelada seguindo esse mesmo padrão.
+   * Para casos de uso de ativos, consulte [Upload no AEM](https://github.com/adobe/aem-upload). Para outros tipos de binários, a lógica de upload personalizada pode ser modelada seguindo esse mesmo padrão.
 
 * `maintenance.task.configuration`
-   * Revise a documentação de [Tarefa de manutenção](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance) do AEM as a Cloud Service.
+   * Revise a documentação de [Tarefa de manutenção](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/maintenance) do AEM as a Cloud Service.
    * Certifique-se de que a [Configuração da tarefa de manutenção](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) esteja no controle de origem.
 
 * `sling.commons.scheduler`
@@ -83,11 +83,11 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
    * Trabalhos de longa duração devem ser evitados.
 
 * `unsupported.asset.api`
-   * Em vez de usar APIs incompatíveis do Asset Manager, consulte [aem-upload](https://github.com/adobe/aem-upload).
+   * Em vez de usar as APIs incompatíveis do Asset Manager, consulte [Upload no AEM](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * Em vez de usar o ouvinte de eventos, é recomendável refatorar o mecanismo de manipulação de eventos para [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), pois isso proporciona a garantia de processamento.
 
 * `custom.guava.cache`
    * Se necessário, os caches devem ser criados fora do AEM. Uma solução de armazenamento em cache externa pode ser considerada.
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

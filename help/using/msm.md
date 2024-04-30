@@ -1,11 +1,11 @@
 ---
 title: MSM
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 51%
+ht-degree: 93%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 51%
 
 Gerenciador de vários sites
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Gerenciador de vários sites"
->abstract="O código MSM identifica informações gerais sobre o recurso AEM Multi-site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
+>abstract="O MSM identifica informações gerais sobre o recurso Gerenciador de vários sites do AEM. Essa informação é fornecida para ajudar a caracterizar o sistema."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
 
 `MSM`  Identifica informações gerais sobre o recurso AEM Multi-site Manager. Essa informação é fornecida para ajudar a caracterizar o sistema.
 
 Os subtipos são usados para identificar diferentes tipos de informações:
 
-* `cq.livesyncconfig.found`: Detecção de um `/jcr:content/cq:LiveSyncConfig` nó no conteúdo que foi adicionado ao AEM, que é uma indicação do uso do Gerenciador de vários sites.
+* `cq.livesyncconfig.found`: detecção de um nó `/jcr:content/cq:LiveSyncConfig` no conteúdo adicionado ao AEM, o que é uma indicação do uso do Gerenciador de vários sites.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -38,4 +38,4 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >abstract="A prática recomendada é revisar todas as configurações de implantação do MSM personalizado e ações de implantação personalizadas e garantir que elas funcionem no AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
 
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

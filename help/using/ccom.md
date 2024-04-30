@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 66%
+ht-degree: 84%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 66%
 
 Componente personalizado
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
@@ -38,10 +38,10 @@ Um subtipo é usado com este código para identificar a categoria do componente:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é minimizar o número de componentes personalizados, usar os componentes principais e usá-los com o Sistema de estilos para reduzir débitos técnicos."
+>abstract="A prática recomendada é minimizar o número de componentes personalizados, aproveitar os componentes principais e usá-los com o Sistema de estilos para reduzir a dívida técnica."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Sistema de estilos"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Sistema de estilos"
 
 * Encontre mais informações sobre os Componentes principais em [Introdução aos componentes principais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction).
-* Encontre mais informações sobre o Sistema de estilos em [Uso do sistema de estilos](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Encontre mais informações sobre o Sistema de estilos em [Uso do sistema de estilos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

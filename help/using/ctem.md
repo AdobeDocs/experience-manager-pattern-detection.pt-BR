@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 68%
+ht-degree: 87%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 68%
 
 Modelo personalizado
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
@@ -32,8 +32,8 @@ Os modelos são identificados por um valor de tipo primário de `cq:Template`. U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é mover todos os modelos estáticos para modelos editáveis. Os clientes podem usar as Ferramentas de modernização do AEM existentes para migrar Modelos estáticos para Modelos editáveis."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Modelos editáveis"
+>abstract="A prática recomendada é mover todos os modelos estáticos para modelos editáveis. Os clientes podem aproveitar as Ferramentas de modernização do AEM para migrar modelos estáticos para modelos editáveis."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Modelos editáveis"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Ferramentas de modernização do AEM"
 
 * A prática recomendada é mover todos os modelos estáticos para modelos editáveis.
@@ -48,5 +48,5 @@ Os modelos são identificados por um valor de tipo primário de `cq:Template`. U
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Use o [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar Modelos estáticos para Modelos editáveis.
-* Encontre mais informações sobre Modelos editáveis em [Modelos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Encontre mais informações sobre Modelos editáveis em [Modelos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

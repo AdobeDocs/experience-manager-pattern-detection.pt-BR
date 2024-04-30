@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 64%
+ht-degree: 73%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 64%
 
 OBSOLETO: Uso de código desatualizado (substituído pelo OU, Uso desatualizado)
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="Uso de código desatualizado"
 >abstract="O código OCU identifica a situação em que alguns nós do JCR, como componentes do Sling ou do AEM ou exportações OSGi de API, são alterados ou removidos de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização. Eles podem ser atualizados para uma versão não compatível ou podem simplesmente não estar disponíveis."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
 
 `OCU`  Identifica a situação em que alguns nós do JCR, como componentes do Sling ou do AEM ou exportações OSGi de API, são alterados ou removidos de forma não compatível. O cliente pode não estar ciente dessa alteração antes de uma atualização. Eles podem ser atualizados para uma versão não compatível ou podem simplesmente não estar disponíveis.
 
@@ -41,4 +41,4 @@ Como as versões antigas não são instaladas por padrão, o aplicativo do clien
 
 * A curto prazo: a instalação do pacote de compatibilidade pode ajudar.
 * A longo prazo: adapte o código do cliente para usar a versão mais recente de componentes ou APIs do AEM.
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

@@ -1,11 +1,11 @@
 ---
 title: CAV
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 45%
+ht-degree: 93%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 45%
 
 Violação da área de conteúdo
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Violação da área de conteúdo"
->abstract="O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo. Essa violação forneceria uma visão geral sobre sobreposições, conteúdo restrito que pode precisar ser alterado após ser movido para o AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusão de recursos do Sling"
+>abstract="O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo. Essa violação fornece uma visão geral sobre sobreposições e conteúdo restrito que necessita de alterações após a migração para o AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
 `CAV` Identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
 
-O processamento de solicitações do Sling define como o conteúdo de um recurso, suas `sling:resourceType` é usada para determinar o script usado para renderizar o conteúdo. Consulte [Localização de script](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações. O Sling também fornece técnicas para acessar e mesclar recursos por meio de &quot;Sobreposições&quot; e &quot;Substituições&quot;. Elas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e em [Sobreposições](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. Consulte [Localização de script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações. O Sling também fornece técnicas para acessar e mesclar recursos por meio de &quot;Sobreposições&quot; e &quot;Substituições&quot;. Elas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e em [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Para tornar mais seguro e fácil para os clientes compreenderem quais as áreas de `/libs` são seguros para usar e sobrepor o conteúdo no `/libs` O foi classificado com propriedades de &quot;mixin&quot;: Público, Abstrato, Final e Interno. Cada classificação contém regras sobre como o conteúdo pode ser usado, herdado ou sobreposto. Consulte [Atualizações sustentáveis](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) para obter uma descrição detalhada.
+Para facilitar a compreensão de clientes sobre quais áreas de `/libs` são seguras para usar e sobrepor conteúdo, o `/libs` foi classificado com propriedades de “mixin”: Público, Abstrato, Final e Interno. Cada classificação contém regras sobre como o conteúdo pode ser usado, herdado ou sobreposto. Consulte [Atualizações sustentáveis](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) para obter uma descrição detalhada.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -37,11 +37,11 @@ Para tornar mais seguro e fácil para os clientes compreenderem quais as áreas 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Diretrizes de implementação"
->abstract="Os padrões identificados com o CAS, onde existem diferentes violações de área de conteúdo, devem ser revisados. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
+>abstract="Deve-se revisar os padrões identificados como CAS, os quais mostram diferentes violações de área de conteúdo. Áreas de classificação de conteúdo final e interno devem ser evitadas. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Minimize o uso de sobreposição de conteúdo para os casos em que for necessária.
 * Em particular, evite a sobreposição de conteúdo restrito (classificações Final e Interno).
-* Considere adaptar as alterações provenientes de `/libs` após atualizações de AEM, Service Pack ou instalações do Cumulative Fix Pack.
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Considere adaptar as alterações provenientes de `/libs` após atualizações do AEM e instalações de pacotes de serviço ou pacotes de correções cumulativos.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
