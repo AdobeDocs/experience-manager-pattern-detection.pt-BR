@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 55%
+ht-degree: 95%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 55%
 
 Problema de configuração incorreta
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
@@ -43,11 +43,11 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
 
 * `sling.job.max.parallel`
-   * A Adobe recomenda configurar o valor como 0,5 para aproveitar a metade dos processadores disponíveis.
+   * A Adobe recomenda definir o valor como 0,5 para aproveitar metade dos processadores disponíveis.
 * `missing.maintenance.configuration`
-   * Limpeza de revisão: consulte [Limpeza de revisão](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). A parte importante relacionada à configuração está aqui: [Limpeza de revisão - Configurar a compactação total e final](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
-   * Limpeza de binários do Lucene: consulte [Painel de operações - Limpeza de binários do Lucene](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
-   * Coleta de Lixo do Armazenamento de Dados: Consulte [Coleta de lixo do armazenamento de dados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
-   * Expurgação do Workflow: Consulte [Limpeza regular de instâncias de fluxo de trabalho](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
-   * Tarefa de manutenção do AuditLog: consulte [Manutenção do Log de Auditoria](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* Entre em contato com [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) clarificações ou para dar resposta a preocupações.
+   * Limpeza de revisão: consulte [Limpeza de revisão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). A parte importante relacionada à configuração está aqui: [Limpeza de revisão - Configurar a compactação total e final](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Limpeza de binários do Lucene: consulte [Painel de operações - Limpeza de binários do Lucene](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Coleta de lixo do armazenamento de dados: consulte [Coleta de lixo do armazenamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Limpeza de fluxo de trabalho: consulte [Limpeza regular de instâncias de fluxo de trabalho](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Tarefa de manutenção do log de auditoria: consulte [Manutenção do log de auditoria](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Entre em contato com a [equipe de atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar considerações.

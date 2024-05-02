@@ -1,10 +1,10 @@
 ---
 title: MODELO
-description: Modelo para a página de ajuda do código do Detector de padrões.
+description: Modelo para a página de ajuda de códigos do detector de padrões.
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 38%
 
 Modelo
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 Forneça uma descrição de um ou mais problemas que esse código representa.
 Responda à pergunta: &quot;O que é isso?&quot;
@@ -33,4 +33,4 @@ Responda à pergunta: &quot;O que posso fazer sobre isso?&quot;
 
 * possível solução nº 1
 * possível solução nº 2
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

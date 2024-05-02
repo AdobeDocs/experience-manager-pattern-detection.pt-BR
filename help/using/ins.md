@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 60%
 
 Namespace inválido
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ins_overview"
@@ -39,4 +39,4 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
 
 * Corrija as definições de namespace de acordo com a [Especificação do JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Siga as etapas mencionadas [aqui](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Entre em contato com [Equipe de Atendimento ao cliente do Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR) clarificações ou para dar resposta a preocupações.
+* Entre em contato com a [equipe de atendimento ao cliente do Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR) para obter esclarecimentos ou abordar suas considerações.

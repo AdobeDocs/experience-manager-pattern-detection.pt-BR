@@ -1,11 +1,11 @@
 ---
 title: FORM
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 [!DNL Adobe Experience Manager Forms]
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"

@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Página de ajuda do código do Detector de padrões.
+description: Página de ajuda de códigos do detector de padrões.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 75%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 64%
 
 Importação interna de Oak
 
-## Segundo plano {#background}
+## Fundo {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
@@ -39,4 +39,4 @@ Alguns deles são usados por `com.adobe.granite.repository`, que configura um re
 
 * Use a API de recursos do Sling (ou a API JCR) em vez de acesso de baixo nível.
 * Evite depender de pacotes internos que não fazem parte de nenhuma API ou SPI pública.
-* Entre em contato com [Equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) esclarecimentos ou de ter preocupações em conta.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
