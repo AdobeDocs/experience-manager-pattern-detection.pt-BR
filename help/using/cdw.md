@@ -2,10 +2,10 @@
 title: CDW
 description: Página de ajuda de códigos do detector de padrões.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 93%
+source-wordcount: '139'
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ Dispositivo de diálogo personalizado
 >title="Dispositivo de diálogo personalizado"
 >abstract="O CDW identifica os Dispositivos de diálogo personalizados que devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service."
 
-`CDW`  (Dispositivos de diálogo personalizados) Identifica os dispositivos de diálogo clássicos personalizados. Eles devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service.
+`CDW`  (`Custom Dialog Widgets`) Identifica os Dispositivos de diálogo clássicos personalizados. Esses widgets devem ser atualizados para que sejam compatíveis com o AEM as a Cloud Service.
 
 Os subtipos são usados para identificar as informações, como:
 
