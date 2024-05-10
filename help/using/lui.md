@@ -1,11 +1,11 @@
 ---
 title: LUI
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Interface do usuário herdada
 >id="aemcloud_bpa_lui_overview"
 >title="Interface do usuário herdada"
 >abstract="O LUI identifica o uso de elementos obsoletos da interface que não são recomendados ou não são compatíveis em versões posteriores do AEM e do AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes: AEM as a Cloud Service"
 
-`LUI`  Identifica o uso de elementos obsoletos da interface do usuário que não são recomendados ou não são compatíveis em versões posteriores do AEM e no AEM as a Cloud Service.
+`LUI` identifica o uso de elementos obsoletos da interface do usuário, que não são recomendados nem compatíveis, em versões posteriores do AEM e no AEM as a Cloud Service.
 
 Os subtipos são usados para identificar os diferentes tipos de elementos da interface que devem ou precisam ser atualizados:
 
@@ -65,7 +65,7 @@ e quando o valor da propriedade `sling:resourceType` não contém
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Ferramentas e recursos"
->abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem converter caixas de diálogo clássicas (ExtJS) em caixas de diálogo Coral. O objetivo é ajudar os clientes a migrar dos recursos não compatíveis ou herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis, extensíveis e possuem reconhecimento de configuração. Além disso, explore a substituição de componentes personalizados pelo conjunto de componentes principais padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos."
+>abstract="Com a ajuda do Conjunto de modernização do AEM, os clientes podem converter caixas de diálogo clássicas (ExtJS) em caixas de diálogo Coral. O objetivo é ajudar os clientes a migrar dos recursos não compatíveis ou herdados para as ofertas robustas e modernas do AEM. Essas ferramentas são configuráveis e extensíveis, e possuem reconhecimento de configuração. Além disso, explore a substituição de componentes personalizados pelo conjunto de componentes principais padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Conversor de componentes"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
 

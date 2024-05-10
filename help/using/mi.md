@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Problema de configuração incorreta
 >title="Problema de configuração incorreta"
 >abstract="O MI identifica problemas de configuração na instância do AEM"
 
-`MI` (Problema de configuração incorreta) Identifica problemas de configuração na instância do AEM.
+`MI` (problema de configuração incorreta) identifica problemas de configuração na instância do AEM.
 
 Os subtipos são usados para identificar os diferentes tipos de informações, como:
 
@@ -40,7 +40,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 >id="aemcloud_bpa_mi_guidance"
 >title="Diretrizes de implementação"
 >abstract="Entre em contato com o Atendimento ao cliente para obter ajuda."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * `sling.job.max.parallel`
    * A Adobe recomenda definir o valor como 0,5 para aproveitar metade dos processadores disponíveis.

@@ -1,11 +1,11 @@
 ---
 title: LOCP
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-`LOCP`  Identifica a detecção de um pacote personalizado que entrega conteúdo para `/libs`, que é um antipadrão (exceto no caso de ACLs).
+`LOCP` identifica a detecção de um pacote personalizado que entrega conteúdo a `/libs`, que é um antipadrão (exceto no caso de ACLs).
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Diretrizes de implementação"
->abstract="Os clientes devem revisar seu código personalizado e pacotes para identificar se o conteúdo é entregue a /libs e refatorar para depender da sobreposição do conteúdo em /apps e torná-lo compatível com o AEM as a Cloud Service. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
+>abstract="Os clientes devem revisar seu código personalizado e pacotes para identificar se o conteúdo é entregue a /libs e refatorar para depender da sobreposição do conteúdo em /apps e torná-lo compatível com o AEM as a Cloud Service. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sobreposições"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 

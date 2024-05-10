@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Artefato instalado
 >id="aemcloud_bpa_inst_overview"
 >title="Artefato instalado"
 >abstract="O código INST identifica pacotes e conjuntos personalizados e de terceiros que foram instalados no AEM pelo cliente. Eles são relatados para ajudar a caracterizar o estado do sistema como o escopo geral de um esforço de atualização. Qualquer pacote de terceiros deve respeitar as diretrizes de desenvolvimento e pacotes do AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Diretrizes de pacotes - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento: AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Diretrizes de pacotes: AEM as a Cloud Service"
 
-`INST`  Identifica pacotes e conjuntos personalizados e de terceiros que foram instalados no AEM pelo cliente. Eles são relatados para ajudar a caracterizar o estado do sistema como o escopo geral de um esforço de atualização.
+`INST` identifica pacotes e conjuntos personalizados e de terceiros instalados no AEM pelo cliente. Eles são relatados para ajudar a caracterizar o estado do sistema como o escopo geral de um esforço de atualização.
 
 Quando várias versões de um pacote tiverem sido instaladas, somente a versão mais recente será relatada.
 
@@ -55,8 +55,8 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exemplo de violação do INST: Github"
 
-* Os pacotes de terceiros devem ser implantados no AEM como parte do projeto usando o [processo de implantação](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) do Cloud Manager.
-* Revise como [incorporar pacotes de terceiros](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) no seu projeto para o AEM as a Cloud Service.
+* Os pacotes de terceiros devem ser implantados no AEM como parte do projeto usando o [processo de implantação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) do Cloud Manager.
+* Revise como [incorporar pacotes de terceiros](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) no seu projeto para o AEM as a Cloud Service.
 * Os pacotes de terceiros devem aderir às orientações de [desenvolvimento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) e [embalagem](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) do AEM as a Cloud Service.
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) e entenda como as [violações do INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) podem ser corrigidas e compatíveis com o AEM as a Cloud Service.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

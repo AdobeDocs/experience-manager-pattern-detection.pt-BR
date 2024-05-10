@@ -1,11 +1,11 @@
 ---
 title: UMI
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Problema de Configuração Incorreta de Atualização
 >id="aemcloud_bpa_umi_overview"
 >title="Problema de Configuração Incorreta de Atualização"
 >abstract="O UMI identifica modificações em determinadas configurações do OSGi que causarão problemas ao atualizar, incluindo uma atualização com falha ou funcionalidade reduzida."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes no AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Alterações importantes: AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de versão do AEM as a Cloud Service"
 
-`UMI`  Identifica modificações em determinadas configurações do OSGi que causam problemas ao atualizar, incluindo uma atualização com falha ou funcionalidade reduzida.
+`UMI` identifica modificações em determinadas configurações do OSGi que causam problemas ao atualizar, incluindo uma falha na atualização ou funcionalidade reduzida.
 
 As seguintes configurações são verificadas para procurar por modificações:
 
@@ -47,8 +47,8 @@ As seguintes configurações são verificadas para procurar por modificações:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é rever as configurações atuais e reverter todas as alterações feitas nas configurações mencionadas para evitar problemas futuros com atualizações. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
+>abstract="A prática recomendada é rever as configurações atuais e reverter todas as alterações feitas nas configurações mencionadas para evitar problemas futuros com atualizações. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Não altere ou remova as quatro configurações mencionadas acima.
    * Se houver a seguinte violação:\

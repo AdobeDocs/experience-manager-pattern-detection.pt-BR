@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Commerce Integration Framework Classic
 >abstract="A CIF identifica a versão clássica da Commerce Integration Framework que é incompatível com o AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-`CIF`  Identifica a versão clássica de uso de Commerce integration framework que é incompatível com AEM as a Cloud Service. A mensagem para cada `CIF` a conclusão identifica o uso e fornece informações adicionais.
+`CIF` identifica a versão clássica do uso da Commerce Integration Framework que é incompatível com o AEM as a Cloud Service. A mensagem para cada `CIF` encontrado identifica o uso e fornece informações adicionais.
 
-Os subtipos são usados para identificar os diferentes tipos de informações:
+Os subtipos são usados para identificar os diferentes tipos de informação:
 
 * `commerce.integration.framework.detected`: uma versão clássica da Commerce Integration Framework incompatível com AEM as a Cloud Service.
 
@@ -46,7 +46,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações:
 >abstract="Este guia ajuda a identificar as áreas que necessitam de atualização para a migração do Experience Manager as Cloud Service."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="Guia de migração para a CIF"
 
-* Para o Experience Manager as a Cloud Service, o complemento CIF é a única solução de integração comercial compatível para soluções comerciais da Adobe Commerce e de terceiros. O complemento CIF é implantado automaticamente para clientes no Experience Manager as a Cloud Service; não é necessária implantação manual. Consulte [Introdução ao AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started).
-* Para apoiar projetos que implantam o CIF, o Adobe fornece [AEM Componentes principais do CIF](https://github.com/adobe/aem-core-cif-components).
-* CIF está disponível para AEM 6.5, bem como através do sistema de gestão de [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html). Ele é compatível e fornece os mesmos recursos do complemento CIF para o Experience Manager as a Cloud Service, não sendo necessário fazer ajustes.
-* A CIF clássica com suas dependências não está mais disponível. Códigos que dependem dessa versão do CIF usando as APIs do Java™ com.adobe.cq.commerce.api devem ser ajustados para o complemento CIF e seus princípios.
+* Para o Experience Manager as a Cloud Service, o complemento da CIF é a única solução de integração comercial compatível para soluções comerciais do Adobe Commerce e de terceiros. O complemento CIF é implantado automaticamente para clientes no Experience Manager as a Cloud Service; não é necessária implantação manual. Consulte [Introdução ao AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started).
+* Para prestar suporte a projetos que implantam a CIF, a Adobe fornece os [Componentes principais da CIF do AEM](https://github.com/adobe/aem-core-cif-components).
+* O complemento da CIF está disponível para o AEM 6.5 e por meio do [Portal de distribuição de softwares](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html). Ele é compatível e fornece os mesmos recursos do complemento CIF para o Experience Manager as a Cloud Service, não sendo necessário fazer ajustes.
+* A CIF clássica com suas dependências não está mais disponível. Códigos que dependem dessa versão da CIF e utilizam as APIs Java™ com.adobe.cq.commerce.api devem ser ajustados para o complemento da CIF e seus princípios.

@@ -1,11 +1,11 @@
 ---
 title: ECU
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ OBSOLETO: uso de conteúdo externo (substituído por CAV, violação da área de
 
 ## Fundo {#background}
 
-`ECU`  Identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
+`ECU` identifica o padrão no qual diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
 
 O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. (Consulte [Localização do script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações.) O Sling também fornece técnicas para acessar e mesclar recursos por meio de &quot;Sobreposições&quot; e &quot;Substituições&quot;. Elas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e em [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

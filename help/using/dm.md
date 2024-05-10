@@ -3,9 +3,9 @@ title: DM
 description: Saiba como os códigos do detector de padrões identificam o uso do AEM Assets Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Diretrizes e práticas recomendadas de desenvolvimento do AEM"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento do AEM as a Cloud Service"
 
-`DM` (Dynamic Media) Identifica o uso do AEM Assets Dynamic Media. O modo Dynamic Media é detectado pelo modo de execução.
+O `DM` (Dynamic Media) identifica o uso do AEM Assets Dynamic Media. O modo Dynamic Media é detectado pelo modo de execução.
 
 Um subtipo é usado com este código:
 

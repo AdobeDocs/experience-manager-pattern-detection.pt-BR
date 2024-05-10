@@ -1,11 +1,11 @@
 ---
 title: DOPI
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Índice ordenado - Obsoleto"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexação - AEM as a Cloud Service"
 
-`DOPI`  Identifica o uso de definições de índice de propriedade ordenada (`primaryType=oak:QueryIndexDefinition` E `type="ordered"`), que foram descontinuados desde o AEM 6.1 e foram removidos no AEM 6.2.
+`DOPI` identifica o uso de definições de índice de propriedade ordenada (`primaryType=oak:QueryIndexDefinition` E `type="ordered"`) que foram descontinuadas desde a versão 6.1 e removidas na versão 6.2 do AEM.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -45,6 +45,6 @@ ht-degree: 85%
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exemplo de violação de DOPI no Github"
 
-* Edite a definição do índice para que ele se torne (ou substitua o índice por) uma definição de índice compatível. (Consulte [Consultas e indexação do Oak](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
+* Edite a definição de índice para convertê-la em (ou para substituir o índice por) uma definição de índice compatível. (Consulte [Consultas e indexação do Oak](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) e entenda como [Violações de DOPI](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) podem ser corrigidas e se tornar compatíveis com o AEM as a Cloud Service.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

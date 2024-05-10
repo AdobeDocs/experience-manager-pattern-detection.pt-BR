@@ -1,11 +1,11 @@
 ---
 title: WRK
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Fluxo de trabalho
 >abstract="O código WRK identifica uma conclusão relacionada a um modelo de fluxo de trabalho ou iniciador. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service. Com o AEM as a Cloud Service, o processamento de ativos agora é realizado pelos microsserviços de ativos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microsserviços de ativos"
 
-`WRK`  Identifica uma conclusão relacionada a um modelo de fluxo de trabalho ou iniciador. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service.
+`WRK` identifica uma descoberta relacionada a um modelo ou iniciador de fluxo de trabalho. Eles são relatados porque modelos de fluxo de trabalho de ativos personalizados devem ser migrados ao atualizar para o AEM as a Cloud Service.
 
 Um subtipo é usado para identificar o tipo de problema de fluxo de trabalho detectado no momento.
 
@@ -37,14 +37,14 @@ Um subtipo é usado para identificar o tipo de problema de fluxo de trabalho det
 
 * Tradicionalmente, o processamento de ativos é executado com fluxos de trabalho de ativos executados na instância do autor do AEM. Com o AEM as a Cloud Service, o processamento de ativos agora é realizado pelos microsserviços de ativos. Consulte a [visão geral dos microsserviços de ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) para obter mais informações.
 * Os fluxos de trabalho de ativos padrão são automaticamente compatíveis com os microsserviços de ativos.
-* As personalizações em fluxos de trabalho de ativos exigem migração para funcionar com o AEM as a Cloud Service.
+* As personalizações dos fluxos de trabalho de ativos exigem migração para funcionar com o AEM as a Cloud Service.
 
 ## Possíveis soluções {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Ferramentas e recursos"
->abstract="Revise e planeje executar a ferramenta Migração de fluxo de trabalho de ativos depois que um modelo de fluxo de trabalho de ativos personalizado ou iniciador for identificado. Entre em contato com o Suporte da Adobe para obter ajuda ou esclarecimentos."
+>abstract="Revise e planeje executar a ferramenta Migração de fluxo de trabalho de ativos depois que um modelo de fluxo de trabalho de ativos personalizado ou iniciador for identificado. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Ferramenta Migração de fluxo de trabalho de ativos"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
