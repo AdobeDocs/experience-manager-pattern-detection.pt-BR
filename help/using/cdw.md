@@ -1,6 +1,6 @@
 ---
 title: CDW
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
@@ -36,7 +36,7 @@ Os subtipos são usados para identificar as informações, como:
 >id="aemcloud_bpa_cdw_guidance"
 >title="Diretrizes de implementação"
 >abstract="Entre em contato com o Atendimento ao cliente para obter ajuda."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=pt-BR" text="Suporte da Experience Cloud"
+>additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Os Dispositivos de diálogo clássicos personalizados devem ser convertidos de ExtJS para [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
 * Entre em contato com a [equipe de atendimento ao cliente do Experience Manager](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar considerações.
