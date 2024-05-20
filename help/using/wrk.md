@@ -2,10 +2,10 @@
 title: WRK
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 

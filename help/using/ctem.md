@@ -2,10 +2,10 @@
 title: CTEM
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -18,25 +18,25 @@ Modelo personalizado
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Modelo personalizado"
->abstract="O código CTEM identifica componentes personalizados que foram instalados no AEM. Estas informações são fornecidas para subsidiar a avaliação de práticas recomendadas"
+>abstract="O código CTEM identifica componentes personalizados que são instalados no AEM. Estas informações são fornecidas para subsidiar a avaliação de práticas recomendadas"
 
-`CTEM` identifica modelos personalizados instalados no AEM. Essas informações são fornecidas para fins de avaliação de práticas recomendadas.
+`CTEM`  Identifica modelos personalizados instalados no AEM. Essas informações são fornecidas para fins de avaliação de práticas recomendadas.
 
-Os modelos são identificados por um valor de tipo primário de `cq:Template`.  Um subtipo é usado com este código para identificar a categoria do modelo:
+Os modelos têm um valor de tipo primário de `cq:Template`, que ajuda na identificação. Um subtipo é usado com este código para identificar a categoria do modelo:
 
-* `custom.editable.template`: o caminho do modelo não começa com &quot;/apps&quot;.
-* `custom.static.template`: o caminho do modelo começa com &quot;/apps&quot;.
+* `custom.editable.template`: o caminho do modelo não começa com `/apps`.
+* `custom.static.template`: o caminho do modelo começa com `/apps`.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é mover todos os modelos estáticos para modelos editáveis. Os clientes podem aproveitar as Ferramentas de modernização do AEM para migrar modelos estáticos para modelos editáveis."
+>abstract="A prática recomendada é mover todos os Modelos estáticos para Modelos editáveis. Os clientes podem aproveitar as Ferramentas de modernização do AEM para migrar modelos estáticos para modelos editáveis."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Modelos editáveis"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Ferramentas de modernização do AEM"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Ferramentas de Modernização do AEM"
 
-* A prática recomendada é mover todos os modelos estáticos para modelos editáveis.
+* A prática recomendada é mover todos os Modelos estáticos para Modelos editáveis.
 
 ## Possíveis soluções {#solutions}
 
