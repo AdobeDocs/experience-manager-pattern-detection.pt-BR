@@ -2,10 +2,10 @@
 title: OID
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 99%
+source-wordcount: '418'
+ht-degree: 86%
 
 ---
 
@@ -46,7 +46,7 @@ Os subtipos são usados para identificar os diferentes tipos de informação:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Ferramentas e recursos"
->abstract="Revise o projeto herdado WKND para entender como as violações de OID podem ser resolvidas em seu projeto. Além disso, revise o exemplo de violação do OID no Github para entender como os índices herdados podem ser convertidos usando a ferramenta Conversor de índice para se tornarem compatíveis com o AEM as a Cloud Service."
+>abstract="Revise o projeto herdado WKND para entender como as violações de OID podem ser resolvidas em seu projeto. Além disso, revise o Exemplo de violação de OID no GitHub. Ele pode ajudá-lo a entender como os índices herdados podem ser convertidos usando a ferramenta Conversor de índice e se tornar compatíveis com o AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Exemplo de violação do OID: Github"
 
@@ -55,4 +55,4 @@ Os subtipos são usados para identificar os diferentes tipos de informação:
 * Os índices padrão personalizados do AEM e as novas definições do índice Oak personalizadas devem seguir as [diretrizes de indexação de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) do AEM as a Cloud Service.
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) e entenda como as [violações de OID](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) podem ser corrigidas para se tornarem compatíveis com o AEM as a Cloud Service.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
-* Use o [Conversor de índices](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) para migrar as definições do índice Oak personalizadas para definições compatíveis com o AEM as a Cloud Service.
+* Use o [Conversor de índice](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) para migrar as definições de índice Oak personalizado existentes para definições de índice Oak personalizado compatíveis com AEM as a Cloud Service.

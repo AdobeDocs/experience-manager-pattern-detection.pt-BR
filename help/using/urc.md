@@ -2,10 +2,10 @@
 title: URC
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 76%
 
 ---
 
@@ -17,9 +17,9 @@ Configuração do modo de execução não compatível
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
->title="Configuração de modo de execução não compatível"
+>title="Configuração do modo de execução não compatível"
 >abstract="O URC identifica o uso de configurações baseadas em um nome de modo de execução não compatível com o AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modos de execução compatíveis"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modos de execução suportados"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modos de execução"
 
 `URC` identifica o uso de configurações baseadas em um nome do modo de execução incompatível com o AEM as a Cloud Service.
@@ -29,7 +29,7 @@ Configuração do modo de execução não compatível
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é verificar se todos os modos de execução usados em seu aplicativo são compatíveis e garantir que sigam as diretrizes de resolução do modo de execução"
+>abstract="A prática recomendada é verificar se todos os modos de execução usados em seu aplicativo são compatíveis. E, certifique-se de que eles sigam as diretrizes de resolução do modo de execução"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Diretrizes de resolução do modo de execução"
 
 * O conjunto de nomes que pode ser usado para executar vários modos no AEM as a Cloud Service é limitado.
@@ -40,7 +40,7 @@ Configuração do modo de execução não compatível
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Ferramentas e recursos"
->abstract="Revise o projeto herdado WKND para entender como as violações de URC podem ser compatíveis com o AEM Cloud Service. Além disso, revise o exemplo de violação de URC no GitHub para entender como as configurações personalizadas de OSGi baseadas em modo de execução podem ser atualizadas em conformidade com o AEM as a Cloud Service."
+>abstract="Revise o projeto herdado WKND para entender como as violações de URC podem ser compatíveis com o AEM Cloud Service. Além disso, revise o exemplo de violação de URC no GitHub para entender como as configurações de OSGi baseadas em modo de execução personalizado podem ser atualizadas para aderir ao AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exemplo de violação de URC no GitHub"
 
