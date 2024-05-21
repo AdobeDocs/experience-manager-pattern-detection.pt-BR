@@ -2,10 +2,10 @@
 title: CAV
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 74%
 
 ---
 
@@ -18,14 +18,21 @@ Violação da área de conteúdo
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Violação da área de conteúdo"
->abstract="O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo. Essa violação fornece uma visão geral sobre sobreposições e conteúdo restrito que necessita de alterações após a migração para o AEM as a Cloud Service."
+>abstract="O código CAV identifica o padrão em que diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo. Essa violação forneceria uma visão geral sobre sobreposições, conteúdo restrito que pode precisar ser alterado após ser movido para o AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
 `CAV` identifica o padrão no qual diferentes áreas do conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
 
-O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. Consulte [Localização de script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações. O Sling também fornece técnicas para acessar e mesclar recursos por meio de &quot;Sobreposições&quot; e &quot;Substituições&quot;. Elas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e em [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. Consulte [Localização de script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações. O Sling também fornece técnicas para acessar e mesclar recursos por meio de Sobreposições e substituições. Essas técnicas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e no [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Para facilitar a compreensão de clientes sobre quais áreas de `/libs` são seguras para usar e sobrepor conteúdo, o `/libs` foi classificado com propriedades de “mixin”: Público, Abstrato, Final e Interno. Cada classificação contém regras sobre como o conteúdo pode ser usado, herdado ou sobreposto. Consulte [Atualizações sustentáveis](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) para obter uma descrição detalhada.
+Para tornar mais seguro e fácil para os clientes compreenderem quais as áreas de `/libs` são seguros para usar e sobrepor, o conteúdo em `/libs` é classificado com propriedades de &quot;mixin&quot;:
+
+* Público
+* Abstrato
+* Final
+* Interno
+
+Cada classificação contém regras sobre como o conteúdo pode ser usado, herdado ou sobreposto. Consulte [Atualizações sustentáveis](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) para obter uma descrição detalhada.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
