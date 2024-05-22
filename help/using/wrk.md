@@ -5,7 +5,7 @@ exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -44,7 +44,7 @@ Um subtipo é usado para identificar o tipo de problema de fluxo de trabalho det
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Ferramentas e recursos"
->abstract="Revise e planeje executar a ferramenta Migração de fluxo de trabalho de ativos depois que um modelo de fluxo de trabalho de ativos personalizado ou iniciador for identificado. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
+>abstract="Revise e planeje a execução da ferramenta de migração de fluxo de trabalho de ativos depois que um modelo de fluxo de trabalho de ativos personalizado ou iniciador for identificado. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Ferramenta Migração de fluxo de trabalho de ativos"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 

@@ -46,7 +46,7 @@ Os subtipos são usados para identificar os diferentes tipos de informação:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Ferramentas e recursos"
->abstract="Revise o projeto herdado WKND para entender como as violações de OID podem ser resolvidas em seu projeto. Além disso, revise o Exemplo de violação de OID no GitHub. Ele pode ajudá-lo a entender como os índices herdados podem ser convertidos usando a ferramenta Conversor de índice e se tornar compatíveis com o AEM as a Cloud Service."
+>abstract="Revise o projeto WKND herdado para entender como as violações de OID podem ser resolvidas em seu projeto. Além disso, revise o Exemplo de violação de OID no GitHub. Ele pode ajudá-lo a entender como os índices herdados podem ser convertidos usando a ferramenta Conversor de índice e se tornar compatíveis com o AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Exemplo de violação do OID: Github"
 

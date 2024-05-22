@@ -5,7 +5,7 @@ exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -40,7 +40,7 @@ Configuração do modo de execução não compatível
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Ferramentas e recursos"
->abstract="Revise o projeto herdado WKND para entender como as violações de URC podem ser compatíveis com o AEM Cloud Service. Além disso, revise o exemplo de violação de URC no GitHub para entender como as configurações de OSGi baseadas em modo de execução personalizado podem ser atualizadas para aderir ao AEM as a Cloud Service."
+>abstract="Revise o projeto WKND herdado para entender como as violações de URC podem ficar compatíveis com o AEM Cloud Service. Além disso, revise o exemplo de violação de URC no GitHub para entender como as configurações de OSGi baseadas em modo de execução personalizado podem ser atualizadas para aderir ao AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exemplo de violação de URC no GitHub"
 

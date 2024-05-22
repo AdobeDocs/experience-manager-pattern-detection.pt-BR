@@ -5,7 +5,7 @@ exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Ferramentas e recursos"
->abstract="Revise o projeto herdado WKND para entender como as violações de DOPI podem ser compatíveis com o AEM Cloud Service. Além disso, revise o Exemplo de violação de DOPI no GitHub. Ele pode ajudá-lo a entender como os índices ordenados herdados podem ser convertidos em índices baseados em Lucene que são compatíveis com o AEM as a Cloud Service."
+>abstract="Revise o projeto WKND herdado para entender como as violações de DOPI podem ficar compatíveis com o AEM Cloud Service. Além disso, revise o Exemplo de violação de DOPI no GitHub. Ele pode ajudá-lo a entender como os índices ordenados herdados podem ser convertidos em índices baseados em Lucene que são compatíveis com o AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exemplo de violação de DOPI no Github"
 
