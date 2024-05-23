@@ -2,10 +2,10 @@
 title: URS
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 66%
 
 ---
 
@@ -16,14 +16,14 @@ Estrutura de repositório não compatível
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Estrutura de repositório não compatível"
->abstract="O código URS identifica casos de estrutura de repositório e características de nó não compatíveis. Essas informações são exibidas para evitar conflitos entre o código de produto do AEM e o código de cliente, conteúdo que está sendo reestruturado da pasta /etc para outras pastas no repositório e muito mais."
+>abstract="O código URS identifica casos de URS (Unsupported Repository Structure, Estrutura de repositório sem suporte) e características de nó. Essas informações são exibidas para evitar conflitos entre o código de produto AEM e o código de cliente, sendo o conteúdo reestruturado da `/etc` para outras pastas no repositório e muito mais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Reestruturação do repositório"
 
 ## Fundo {#background}
 
-`URS` identifica casos de estrutura de repositório e características de nó incompatíveis. A partir do AEM 6.4, foram fornecidas orientações para a reestruturação do conteúdo de repositórios. Ao definir claramente hierarquias para código de produto do AEM e código de cliente e evitar conflitos entre elas, o conteúdo está sendo reestruturado da pasta `/etc` para outras pastas no repositório, seguindo as seguintes regras de alto nível:
+`URS`  Identifica casos de URS (Estrutura de repositório não compatível) e características de nó. A partir do AEM 6.4, foram fornecidas orientações para a reestruturação do conteúdo de repositórios. Ao definir claramente hierarquias para código de produto AEM e código de cliente, e evitar conflitos entre todas elas, o conteúdo está sendo reestruturado da `/etc` para outras pastas no repositório. Isso seguirá as seguintes regras de alto nível:
 
-* O código do produto do AEM sempre será colocado em `/libs`, que não deve ser substituído por um código personalizado.
+* O código do produto AEM é sempre colocado em `/libs` esse código personalizado não deve substituir.
 * Códigos personalizados devem ser colocados em `/apps`, `/content` e `/conf`.
 * É altamente recomendável que essas diretrizes sejam seguidas para o AEM as a Cloud Service.
 
@@ -46,7 +46,7 @@ Os subtipos são usados para identificar tipos específicos de problemas de repo
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é revisar o projeto de código. Certifique-se de que ele esteja em conformidade com as diretrizes de estrutura de projetos do AEM e evite que o código dependa de caminhos de repositório mais antigos/incompatíveis e que possam causar comportamento indesejado no AEM as a Cloud Service. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
+>abstract="A prática recomendada é revisar o projeto de código. Certifique-se de que ele siga as diretrizes de estrutura do projeto AEM e evite que o código dependa de caminhos de repositório mais antigos ou não compatíveis que possam causar comportamento indesejado no AEM as a Cloud Service. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Diretrizes de estrutura de projetos do AEM"
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 

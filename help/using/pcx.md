@@ -2,10 +2,10 @@
 title: PCX
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ Os subtipos são usados para identificar os diferentes tipos de informação:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Diretrizes de implementação"
->abstract="A prática recomendada é revisar a estrutura do conteúdo para reduzir a complexidade da página, o que ajuda a melhorar o desempenho de renderização. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
+>abstract="A prática recomendada é revisar a estrutura do conteúdo para reduzir a complexidade da página. Por sua vez, isso pode ajudar a melhorar o desempenho da renderização da página. Entre em contato com o suporte da Adobe para obter ajuda ou esclarecimentos."
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Reduza o número total de nós em uma página com a seguinte ação:
