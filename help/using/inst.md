@@ -3,9 +3,9 @@ title: INST
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Artefato instalado
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Artefato instalado"
->abstract="O código INST identifica pacotes e conjuntos personalizados e de terceiros instalados no AEM pelo cliente. Esses pacotes e conjuntos são relatados para ajudar a caracterizar o estado do sistema e o escopo geral de um esforço de atualização. Qualquer pacote de terceiros deve respeitar as diretrizes de desenvolvimento e pacotes do AEM as a Cloud Service."
+>abstract="O INST identifica pacotes e conjuntos personalizados e de terceiros instalados no AEM por clientes. Esses pacotes e conjuntos são relatados para ajudar a identificar o estado do sistema e o escopo geral de uma tarefa de atualização. Qualquer pacote de terceiros deve respeitar as diretrizes de desenvolvimento e pacotes do AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Diretrizes de desenvolvimento: AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Diretrizes de pacotes: AEM as a Cloud Service"
 
-`INST`  Identifica pacotes e conjuntos personalizados e de terceiros instalados no AEM pelo cliente. Esses pacotes e conjuntos são relatados para ajudar a caracterizar o estado do sistema e o escopo geral de um esforço de atualização.
+O `INST` identifica pacotes e conjuntos personalizados e de terceiros instalados no AEM por clientes. Esses pacotes e conjuntos são relatados para ajudar a identificar o estado do sistema e o escopo geral de uma tarefa de atualização.
 
 Quando várias versões de um pacote tiverem sido instaladas, somente a versão mais recente será relatada.
 
@@ -51,7 +51,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Ferramentas e recursos"
->abstract="Analise o projeto herdado WKND para entender como as violações do INST podem ser compatíveis com o AEM Cloud Service. Além disso, revise o exemplo de violação do INST no GitHub para entender como esse problema pode ser corrigido e implantado no AEM as a Cloud Service."
+>abstract="Analise o projeto herdado WKND para entender como as violações do INST podem ser compatíveis com o AEM Cloud Service. Além disso, analise o exemplo de violação do INST no GitHub para entender como corrigir esse problema e implantar no AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Projeto herdado WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exemplo de violação do INST: Github"
 

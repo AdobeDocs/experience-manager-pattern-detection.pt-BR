@@ -2,9 +2,9 @@
 title: MODELO
 description: Modelo para a página de ajuda de códigos do detector de padrões.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Responda à pergunta: &quot;O que é isso?&quot;
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
-Fornecer uma descrição das possíveis implicações e riscos que podem surgir se nada for feito sobre eles.
+Forneça uma descrição das possíveis implicações e riscos que surgirão se medidas não forem tomadas.
 Responda à pergunta: &quot;Por que eu deveria me importar?&quot;
 
 * implicação ou risco nº 1
