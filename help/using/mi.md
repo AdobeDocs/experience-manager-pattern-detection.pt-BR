@@ -3,9 +3,9 @@ title: MI
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Problema de configuração incorreta
 Os subtipos são usados para identificar os diferentes tipos de informações, como:
 
 * `sling.job.max.parallel`: identifique os processos do Sling nos quais a configuração paralela máxima está definida como -1.
-* `missing.maintenance.configuration`: Identifique as configurações ausentes na Tarefa de manutenção.
+* `missing.maintenance.configuration`: identifique as configurações da tarefa de manutenção ausentes.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 * `sling.job.max.parallel`
    * Um valor de -1 é substituído pelo número de processadores disponíveis. Dessa forma, pode causar problemas de desempenho em uma instância do AEM.
 * `missing.maintenance.configuration`
-   * Configurações ausentes da tarefa de manutenção podem causar perda de desempenho ou corrupção da instância.
+   * Configurações da tarefa de manutenção ausentes podem causar queda de desempenho ou corrupção da instância.
 
 ## Possíveis soluções {#solutions}
 

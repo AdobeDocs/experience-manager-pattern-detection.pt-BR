@@ -3,9 +3,9 @@ title: OAUI
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

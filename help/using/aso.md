@@ -3,9 +3,9 @@ title: ASO
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * `data.store`: o tipo de implementação do armazenamento de dados (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: uma tarefa de manutenção.
 * `slow.query`: uma consulta lenta.
-* `group.membership`: o número de usuários e subgrupos (somente membros diretos/declarados) em um grupo.
+* `group.membership`: a quantidade de usuários e subgrupos (somente membros diretos/declarados) de um grupo.
 * `cqtag.count`: o número de ativos marcados do CQ.
 * `smarttag.count`: o número de ativos com tags inteligentes.
 * `ccom.version`: a versão do pacote do Componente principal.
@@ -46,10 +46,10 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 * A versão do AEM, contagens de nós, associação a grupos, armazenamento de nós, tipos de implementação de armazenamento de dados, contagem de tags CQ, contagem de tags inteligentes, versão do componente principal, tipo de instância do AEM e contagem de ativos não processados são fornecidos para fins informativos.
-* O maior número de URLs personalizados (>1000) pode sobrecarregar o Dispatcher e os servidores de publicação com consultas caras.
+* Um número maior de URLs personalizados (>1000) pode sobrecarregar o Dispatcher e os servidores de publicação com consultas extensas.
 * O aplicativo personalizado pode depender de produtos ou recursos não disponíveis no AEM as a Cloud Service.
 * Atualizar com recursos não compatíveis pode resultar em uma falha de atualização e em um aplicativo não funcional.
-* Um alto número de fluxos de trabalho do autor em um estado de execução ou obsoleto pode prejudicar o desempenho.
+* Um alto número de fluxos de trabalho do autor em execução ou em estado obsoleto pode prejudicar o desempenho.
 * Consultas lentas podem prejudicar o desempenho do sistema.
 
 ## Possíveis soluções {#solutions}
@@ -61,7 +61,7 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Atualizações do AEM com produtos ou recursos incompatíveis não são recomendadas e podem não contar com suporte.
-* Os ativos não processados devem ser `dam:assetState` propriedade no `jcr:content` do ativo deve ser definido como &quot;processado&quot;. Ou remova esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
+* Os ativos não processados precisam ser processados e a propriedade `dam:assetState` no nó `jcr:content` do ativo deve ser definida como “processada”. Ou remova esses ativos do conjunto de migração antes de migrar para o AEMaaCS.
 * URLs personalizados podem ser substituídos por regravações do Apache.
 * Consulte a [documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
 * Confira as [notas de versão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) para saber mais sobre as últimas mudanças no AEM as a Cloud Service.

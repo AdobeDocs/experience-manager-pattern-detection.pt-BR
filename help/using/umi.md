@@ -3,9 +3,9 @@ title: UMI
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ As seguintes configurações são verificadas para procurar por modificações:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : Identifique se o `org.apache.sling.commons.log.file` propriedade dos logs personalizados aponta para algo diferente de `logs/error.log` arquivo.
+* `org.apache.sling.commons.log.LogManager.factory.config`: identifica se a propriedade `org.apache.sling.commons.log.file` dos logs personalizados aponta para algo diferente do arquivo `logs/error.log`.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -39,7 +39,7 @@ As seguintes configurações são verificadas para procurar por modificações:
    * A atualização pode ficar paralisada (por exemplo, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` estava ausente, mas presente em `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Problemas de autorização podem ocorrer após a atualização (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Certas funcionalidades podem não funcionar conforme esperado. Por exemplo, alterar `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` pode impedir a compilação de alguns arquivos JSP, o que resulta na perda de funcionalidade.
-   * Os valores da configuração do Externalizador `com.day.cq.commons.impl.ExternalizerImpl` são definidos com as variáveis de ambiente do cloud manager no AEM as a Cloud Service.
+   * Os valores da configuração `com.day.cq.commons.impl.ExternalizerImpl` do externalizador são definidos por variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
    * O AEM as a Cloud Service não oferece suporte a arquivos de log personalizados. Os registros gravados em logs com nomes personalizados não podem ser acessados no AEM as a Cloud Service.
 
 ## Possíveis soluções {#solutions}
