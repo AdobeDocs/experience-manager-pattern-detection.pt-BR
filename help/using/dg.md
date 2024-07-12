@@ -3,7 +3,7 @@ title: DG
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
