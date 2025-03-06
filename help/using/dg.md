@@ -2,10 +2,10 @@
 title: DG
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,10 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 * `unsupported.asset.api`: o uso de APIs incompatíveis do Asset Manager no código do aplicativo.
 * `javax.jcr.observation.EventListener`: O uso de um ouvinte de eventos no código do aplicativo.
 * `custom.guava.cache`: o uso de cache do Guava no código do aplicativo.
+* `java.api`: Algumas APIs Java foram removidas do Java 11 para o Java 17.
+* `configuration.admin`: o código personalizado que está acessando configurações será sinalizado.
+* `guava.api`: Guava não é suportado prontamente no AEM 6.5 LTS.
+* `com.day.cq.dam.scene7.api.model`: Há uma alteração principal na versão para `package com.day.cq.dam.scene7.api.model`.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -59,6 +63,18 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `custom.guava.cache`
    * O uso de cache do Guava pode causar problemas de desempenho no AEM.
+
+* `java.api`
+   * Com o AEM 6.5 LTS no JRE17, essas APIs do Java removidas não estarão disponíveis e seu uso falhará.
+
+* `configuration.admin`
+   * Você deve verificar seu uso para garantir que não esteja usando configurações não compatíveis, como o Social.
+
+* `guava.api`
+   * Como o Guava não é compatível com o AEM 6.5 LTS, o código personalizado que está usando o guava não estará ativo.
+
+* `com.day.cq.dam.scene7.api.model`
+   * O pacote importado `com.day.cq.dam.scene7.api.model` em pacotes personalizados não será resolvido devido a uma alteração importante na versão.
 
 
 ## Possíveis soluções {#solutions}
@@ -91,3 +107,12 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 * `custom.guava.cache`
    * Os caches, se necessários, devem ser criados fora do AEM. Uma solução externa de armazenamento em cache pode ser considerada.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
+
+* `configuration.admin`
+   * Remova qualquer uso de configuração de recursos não compatíveis, como o Social.
+
+* `guava.api`
+   * Instale o Guava ou remova o uso se o Guava for usado em seu código personalizado.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Atualize o intervalo de versões do pacote importado `com.day.cq.dam.scene7.api.model` para **3.0.4**.

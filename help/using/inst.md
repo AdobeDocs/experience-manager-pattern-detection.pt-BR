@@ -2,10 +2,10 @@
 title: INST
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * Os aplicativos dependentes de pacotes de terceiros podem não funcionar conforme esperado até serem implantados corretamente para funcionar com o AEM as a Cloud Service.
 * Pacotes de fornecedores de terceiros, quando não otimizados para o AEM as a Cloud Service, podem resultar em comportamento indesejado.
 
+Além disso, considere prestar atenção a esses subtipos específicos:
+
+* `guava.bundle` - Guava não é suportado por padrão no AEM 6.5 LTS e o pacote não estará disponível após a atualização.
+
 ## Possíveis soluções {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ Os subtipos são usados para identificar diferentes tipos de informações:
 * Os pacotes de terceiros devem aderir às orientações de [desenvolvimento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) e [embalagem](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) do AEM as a Cloud Service.
 * Revise o projeto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) e entenda como as [violações do INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) podem ser corrigidas e compatíveis com o AEM as a Cloud Service.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
+* Para o subtipo `guava.bundle`, instale o Guava ou remova o uso se o Guava for usado em seu código personalizado.
