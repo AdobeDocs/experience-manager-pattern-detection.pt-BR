@@ -1,7 +1,8 @@
 ---
 title: AC
 description: Página de ajuda referente ao código do detector de padrões.
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
+source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
@@ -25,3 +26,4 @@ Encontre as soluções possíveis para os diferentes subtipos abaixo:
 * `asset.overlays.detected` - As sobreposições criadas nos componentes de Classificação e Catálogo do Assets precisam ser removidas.
 * `asset.resource.type.detected` - Remova qualquer uso do tipo de recurso do componente de classificação do Assets em seu código personalizado.
 * `asset.paths.detected` - Mova qualquer conteúdo do cliente presente nesses caminhos e remova esses caminhos depois de verificar se eles não estão sendo usados no AEM.
+
