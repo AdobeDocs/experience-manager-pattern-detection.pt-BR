@@ -4,7 +4,7 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="/libs Substituição de pacotes personalizados"
 >abstract="O LOCP identifica a detecção de um pacote personalizado que fornece conteúdo a `/libs`, que é um antipadrão (exceto se houver ACLs)."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Atualizações sustentáveis"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Mesclagem de recursos do Sling"
 
 `LOCP` identifica a detecção de um pacote personalizado que entrega conteúdo a `/libs`, que é um antipadrão (exceto no caso de ACLs).
 

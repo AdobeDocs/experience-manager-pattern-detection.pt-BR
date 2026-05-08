@@ -4,8 +4,8 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -26,10 +26,10 @@ Interface do usuário herdada
 Os subtipos são usados para identificar os diferentes tipos de elementos da interface que devem ou precisam ser atualizados:
 
 * `legacy.dialog.classic`: as caixas de diálogo da IU Clássica com base em ExtJS devem ser alteradas para Coral.
-   * Esse subtipo é detectado quando o nome da caixa de diálogo é `dialog` ou `design_dialog` e quando
-o valor da propriedade `jcr:primaryType` ou `xtype` é `cq:Dialog`.
+   * Este subtipo é detectado quando o nome da caixa de diálogo é `dialog` ou `design_dialog` e quando
+o valor da propriedade `jcr:primaryType` ou o valor da propriedade `xtype` é `cq:Dialog`.
 * `legacy.dialog.coral2`: as caixas de diálogo `Coral 2` devem ser atualizadas para usar `Coral 3`.
-   * Este subtipo é detectado quando a caixa de diálogo e os nomes dos nós de conteúdo secundário são
+   * Este subtipo é detectado quando a caixa de diálogo e os nomes dos nós filhos de conteúdo são
       * `cq:dialog/content`,
       * `cq:design_dialog/content`,
       * `cq:dialog.coral2/content`,
@@ -38,8 +38,8 @@ e o valor da propriedade `sling:resourceType` não contém `granite/ui/component
 * `legacy.custom.component`: componentes herdados do `foundation/components` devem ser atualizados para usar os componentes principais.
    * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Component` e o
      valor da propriedade `sling:resourceSuperType` contém “foundation/components”. Ou, quando qualquer um dos
-     valores da propriedade `sling:resourceSuperType` da cadeia de componentes de supertipo contêm
-“foundation/components”.
+     `sling:resourceSuperType` valores de propriedade da cadeia de componentes de supertipo contêm
+&quot;fundação/componentes.&quot;
 * `legacy.static.template`: modelos estáticos devem ser atualizados para modelos editáveis.
    * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Template`.
 * `content.fragment.template`: os modelos de fragmento de conteúdo devem criar modelos de fragmento para substituir os modelos de fragmento.
@@ -59,7 +59,7 @@ e o valor da propriedade `sling:resourceType` não contém `granite/ui/component
 
 * A interface clássica não está mais disponível no AEM as a Cloud Service. A interface padrão para criação é a interface habilitada para toque.
 * Depender de componentes personalizados herdados pode aumentar os custos de manutenção ao longo do tempo.
-* Os modelos de fragmento de conteúdo legados foram substituídos pelos novos modelos de fragmentos de conteúdo no AEM 6.3. A migração de fragmentos de conteúdo baseados em modelos legados para o AEM as a Cloud Service manterá a funcionalidade desses fragmentos, mas não será possível criar mais fragmentos com base no modelo legado. Também não será possível entregar esses fragmentos usando o GraphQL do AEM, que precisa dos novos modelos de fragmentos de conteúdo como esquemas.
+* Modelos de fragmentos de conteúdo substituídos por modelos de fragmentos de conteúdo no AEM 6.3. A migração de fragmentos de conteúdo baseados em modelos herdados para o AEM as a Cloud Service retém esses fragmentos como funcionais, mas não é possível criar fragmentos com base no modelo herdado. Também não será possível entregar esses fragmentos usando o GraphQL do AEM, que precisa dos novos modelos de fragmentos de conteúdo como esquemas.
 * /apps é imutável no tempo de execução e o arquivo translator.html não estaria mais disponível no AEM as a Cloud Service. Portanto, dicionários `I18n` precisam vir do Git por meio do pipeline de CI/CD.
 
 ## Possíveis soluções {#solutions}

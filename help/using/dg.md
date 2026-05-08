@@ -4,8 +4,8 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 80%
+source-wordcount: '916'
+ht-degree: 84%
 
 ---
 
@@ -49,7 +49,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `sling.commons.scheduler`
    * Aplicativos dependentes de tarefas em segundo plano usando o [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) podem não funcionar como esperado porque a execução não pode ser garantida no AEM as a Cloud Service.
-   * As diretrizes de desenvolvimento para [tarefas em segundo plano e tarefas de longa duração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) sugerem que o código executado como uma tarefa agendada também deve pressupor que a instância na qual está sendo executado pode ser desativada a qualquer momento. Portanto, o código deve ser resiliente e retomável.
+   * As diretrizes de desenvolvimento para [tarefas em segundo plano e processos de longa duração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) sugerem que o código executado como uma tarefa agendada também deve pressupor que a instância na qual está sendo executado pode ser desativada a qualquer momento. Portanto, o código deve ser resiliente e retomável.
 
 * `unsupported.asset.api`
    * As seguintes APIs do AssetManager são incompatíveis com o AEM as a Cloud Service.
@@ -96,7 +96,7 @@ Os subtipos são usados para identificar os diferentes tipos de violações dete
 
 * `sling.commons.scheduler`
    * Substitua o uso do [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) pelo [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), que dispõe de uma garantia de ao menos uma execução.
-   * Tarefas de longa duração devem ser evitadas.
+   * Processos de longa duração devem ser evitados.
 
 * `unsupported.asset.api`
    * Em vez de usar as APIs incompatíveis do Asset Manager, consulte [Upload no AEM](https://github.com/adobe/aem-upload).
