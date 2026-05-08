@@ -4,7 +4,7 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Um subtipo é usado para identificar o tipo de problema de fluxo de trabalho det
 >abstract="Os fluxos de trabalho de ativos padrão são automaticamente compatíveis com os microsserviços de ativos. Portanto, a prática recomendada é verificar todos os modelos de fluxo de trabalho de ativos personalizado ou o Launcher. Ao verificar, confira se eles são necessários após a transição para o AEM as a Cloud Service. As personalizações dos fluxos de trabalho de ativos exigem migração para funcionar no AEM as a Cloud Service, a qual pode ser feita com a ferramenta de migração de fluxos de trabalho de ativos"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Introdução - Microsserviços de ativos"
 
-* Tradicionalmente, o processamento de ativos é executado com fluxos de trabalho de ativos executados na instância do autor do AEM. Com o AEM as a Cloud Service, os microsserviços de ativos executam o processamento do ativo. Consulte a [visão geral dos microsserviços de ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) para obter mais informações.
+* Tradicionalmente, o processamento de ativos é executado com fluxos de trabalho de ativos executados na instância de criação do AEM. Com o AEM as a Cloud Service, os microsserviços de ativos executam o processamento do ativo. Consulte a [visão geral dos microsserviços de ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) para obter mais informações.
 * Os fluxos de trabalho de ativos padrão são automaticamente compatíveis com os microsserviços de ativos.
 * As personalizações dos fluxos de trabalho de ativos exigem migração para funcionar com o AEM as a Cloud Service.
 

@@ -4,7 +4,7 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,4 @@ Como as versões antigas não são instaladas por padrão, o aplicativo do clien
 
 * Curto prazo: a instalação do pacote de compatibilidade pode ajudar.
 * Longo prazo: adapte o código do cliente para usar a versão mais recente de componentes ou APIs do AEM.
-* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar os suas considerações.
+* Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.

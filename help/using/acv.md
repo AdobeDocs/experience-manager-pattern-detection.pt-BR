@@ -4,7 +4,7 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Os subtipos são usados para identificar os diferentes tipos de informações, c
 * Isso pode levar à falha de determinados recursos do Assets que dependem das propriedades herdadas no Experience Manager as a Cloud Service.
 * O AEM Assets depende da existência da representação original. O processamento de ativos no Cloud Service entrará em um loop, se a representação original estiver ausente. A geração de subativos não é permitida no AEMaaCS.
 * Um grande número de descendentes sob um nó de metadados pode atrasar o download de pastas que contenham ativos violados.
-* A presença de nós em conflito pode levar a uma falha de assimilação no AEM as a Cloud Service.
+* A presença de nós em conflito pode levar a uma falha de ingestão no AEM as a Cloud Service.
 * O Experience Manager pode não processar arquivos PSB de alta resolução. Os clientes que usam o ImageMagick para processar arquivos grandes podem sofrer um impacto negativo no desempenho se a avaliação referencial adequada do servidor do Experience Manager não for feita.
 * Caracteres inválidos no nome do ativo podem causar falhas ao migrar para o AEM as a Cloud Service.
 

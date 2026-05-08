@@ -4,7 +4,7 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Os modelos têm um valor de tipo principal de `cq:Template`, que ajuda na identi
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Modelos editáveis"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Ferramentas de Modernização do AEM"
 
-* A prática recomendada é mover todos os modelos estáticos para modelos editáveis. 
+* A prática recomendada é mover todos os modelos estáticos para modelos editáveis.
 
 ## Possíveis soluções {#solutions}
 
