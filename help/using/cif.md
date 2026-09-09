@@ -13,7 +13,7 @@ ht-degree: 80%
 
 Commerce Integration Framework Classic
 
-## Fundo {#background}
+## Histórico {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
