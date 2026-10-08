@@ -4,11 +4,9 @@ description: Página de ajuda referente ao código do detector de padrões.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
-
+source-wordcount: '290'
+ht-degree: 97%
 ---
-
 # ECU {#ecu}
 
 OBSOLETO: uso de conteúdo externo (substituído por CAV, violação da área de conteúdo)
@@ -17,7 +15,7 @@ OBSOLETO: uso de conteúdo externo (substituído por CAV, violação da área de
 
 `ECU` identifica o padrão no qual diferentes áreas de conteúdo são usadas de uma maneira que viola as regras da classificação de conteúdo.
 
-O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. (Consulte [Localização do script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações.) O Sling também fornece técnicas para acessar e mesclar recursos por meio de “Sobreposições” e “Substituições”. Essas técnicas são descritas como parte da [Fusão de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e na seção [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+O processamento de solicitações do Sling define como o conteúdo de um recurso, mais especificamente sua propriedade `sling:resourceType`, é usado para determinar o script utilizado para renderizar o conteúdo. (Consulte [Localizando o script](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) para obter mais informações.) O Sling também fornece técnicas para acessar e mesclar recursos por meio de “Sobreposições” e “Substituições”. Essas técnicas são descritas como parte da [Mesclagem de recursos do Sling](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e na seção [Sobreposições](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
 Para garantir que clientes entendam quais áreas de `/libs` são seguras para usar e sobrepor, o conteúdo de `/libs` foi classificado com propriedades de “mixin”:
 
