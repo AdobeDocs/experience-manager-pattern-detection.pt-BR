@@ -2,13 +2,17 @@
 title: PCX
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 Complexidade da página
@@ -42,9 +46,9 @@ Os subtipos são usados para identificar os diferentes tipos de informação:
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Reduza o número total de nós em uma página com a seguinte ação:
-   * Verifique se não há contêineres desnecessários.
-   * Teste se o mesmo layout pode ser obtido com menos contêineres.
-   * Simplifique o conteúdo da página.
-   * Reduza a profundidade da estrutura do nó.
-   * Fatore novamente os Fragmentos de experiência inclusos para maior simplicidade.
+  * Verifique se não há contêineres desnecessários.
+  * Teste se o mesmo layout pode ser obtido com menos contêineres.
+  * Simplifique o conteúdo da página.
+  * Reduza a profundidade da estrutura do nó.
+  * Fatore novamente os Fragmentos de experiência inclusos para maior simplicidade.
 * Entre em contato com a [equipe de suporte do AEM](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) para obter esclarecimentos ou abordar suas considerações.
