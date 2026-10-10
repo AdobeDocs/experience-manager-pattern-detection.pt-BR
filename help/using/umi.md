@@ -2,13 +2,17 @@
 title: UMI
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
-
 ---
-
 # UMI {#umi}
 
 Problema de Configuração Incorreta de Atualização
@@ -36,11 +40,11 @@ As seguintes configurações são verificadas para procurar por modificações:
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 * Alterar ou remover configurações pode causar os seguintes problemas:
-   * A atualização pode ficar paralisada (por exemplo, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` estava ausente, mas presente em `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
-   * Problemas de autorização podem ocorrer após a atualização (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
-   * Certas funcionalidades podem não funcionar conforme esperado. Por exemplo, alterar `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` pode impedir a compilação de alguns arquivos JSP, o que resulta na perda de funcionalidade.
-   * Os valores da configuração `com.day.cq.commons.impl.ExternalizerImpl` do externalizador são definidos por variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
-   * O AEM as a Cloud Service não oferece suporte a arquivos de log personalizados. Os registros gravados em logs com nomes personalizados não podem ser acessados no AEM as a Cloud Service.
+  * A atualização pode ficar paralisada (por exemplo, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` estava ausente, mas presente em `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
+  * Problemas de autorização podem ocorrer após a atualização (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
+  * Certas funcionalidades podem não funcionar conforme esperado. Por exemplo, alterar `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` pode impedir a compilação de alguns arquivos JSP, o que resulta na perda de funcionalidade.
+  * Os valores da configuração `com.day.cq.commons.impl.ExternalizerImpl` do externalizador são definidos por variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
+  * O AEM as a Cloud Service não oferece suporte a arquivos de log personalizados. Os registros gravados em logs com nomes personalizados não podem ser acessados no AEM as a Cloud Service.
 
 ## Possíveis soluções {#solutions}
 
@@ -51,9 +55,9 @@ As seguintes configurações são verificadas para procurar por modificações:
 >additional-url="https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html" text="Suporte da Experience Cloud"
 
 * Não altere ou remova as quatro configurações mencionadas acima.
-   * Se houver a seguinte violação:\
-     “Propriedades obrigatórias para a configuração `xyz-configuration` do OSGI estão ausentes: ‘[property-1, property-2...]’”.\
-     Confirme se essas exclusões são intencionais ou não, pois essas são as configurações padrão do OSGI e podem nunca ter sido modificadas ou salvas no gerenciador de configurações do OSGI.
+  * Se houver a seguinte violação:\
+    “Propriedades obrigatórias para a configuração `xyz-configuration` do OSGI estão ausentes: ‘[property-1, property-2...]’”.\
+    Confirme se essas exclusões são intencionais ou não, pois essas são as configurações padrão do OSGI e podem nunca ter sido modificadas ou salvas no gerenciador de configurações do OSGI.
 * Se as configurações foram alteradas, elas deverão ser restauradas aos seus valores esperados. Esses valores são indicados nas mensagens do `UMI`.
 * No caso de `com.day.cq.commons.impl.ExternalizerImpl`, consulte a [documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer) para definir a configuração do externalizador usando variáveis de ambiente do Cloud Manager no AEM as a Cloud Service.
 * Para `org.apache.sling.commons.log.LogManager.factory.config`, altere a configuração do OSGI para enviar o log personalizado para o arquivo `logs/error.log`. Consulte a [documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs) sobre o redirecionamento para o arquivo `logs/error.log`.

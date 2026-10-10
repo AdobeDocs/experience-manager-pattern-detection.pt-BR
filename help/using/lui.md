@@ -2,13 +2,17 @@
 title: LUI
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '799'
 ht-degree: 89%
-
 ---
-
 # LUI {#lui}
 
 Interface do usuário herdada
@@ -26,28 +30,28 @@ Interface do usuário herdada
 Os subtipos são usados para identificar os diferentes tipos de elementos da interface que devem ou precisam ser atualizados:
 
 * `legacy.dialog.classic`: as caixas de diálogo da IU Clássica com base em ExtJS devem ser alteradas para Coral.
-   * Este subtipo é detectado quando o nome da caixa de diálogo é `dialog` ou `design_dialog` e quando
-o valor da propriedade `jcr:primaryType` ou o valor da propriedade `xtype` é `cq:Dialog`.
+  * Este subtipo é detectado quando o nome da caixa de diálogo é `dialog` ou `design_dialog` e quando
+    o valor da propriedade `jcr:primaryType` ou o valor da propriedade `xtype` é `cq:Dialog`.
 * `legacy.dialog.coral2`: as caixas de diálogo `Coral 2` devem ser atualizadas para usar `Coral 3`.
-   * Este subtipo é detectado quando a caixa de diálogo e os nomes dos nós filhos de conteúdo são
-      * `cq:dialog/content`,
-      * `cq:design_dialog/content`,
-      * `cq:dialog.coral2/content`,
-      * ou `cq:design_dialog.coral2/content`
-e o valor da propriedade `sling:resourceType` não contém `granite/ui/components/coral/foundation`.
+  * Este subtipo é detectado quando a caixa de diálogo e os nomes dos nós filhos de conteúdo são
+    * `cq:dialog/content`,
+    * `cq:design_dialog/content`,
+    * `cq:dialog.coral2/content`,
+    * ou `cq:design_dialog.coral2/content`
+      e o valor da propriedade `sling:resourceType` não contém `granite/ui/components/coral/foundation`.
 * `legacy.custom.component`: componentes herdados do `foundation/components` devem ser atualizados para usar os componentes principais.
-   * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Component` e o
-     valor da propriedade `sling:resourceSuperType` contém “foundation/components”. Ou, quando qualquer um dos
-     `sling:resourceSuperType` valores de propriedade da cadeia de componentes de supertipo contêm
-&quot;fundação/componentes.&quot;
+  * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Component` e o
+    valor da propriedade `sling:resourceSuperType` contém “foundation/components”. Ou, quando qualquer um dos
+    `sling:resourceSuperType` valores de propriedade da cadeia de componentes de supertipo contêm
+    &quot;fundação/componentes.&quot;
 * `legacy.static.template`: modelos estáticos devem ser atualizados para modelos editáveis.
-   * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Template`.
+  * Este subtipo é detectado quando o valor da propriedade `jcr:primaryType` é `cq:Template`.
 * `content.fragment.template`: os modelos de fragmento de conteúdo devem criar modelos de fragmento para substituir os modelos de fragmento.
-   * Os modelos de fragmento de conteúdo podem ser encontrados nos seguintes locais:
-      * Os modelos de fragmento de conteúdo prontos para uso são armazenados no `/libs/settings/dam/cfm/templates`
-      * Eles podem ser sobrepostos no  `/apps/settings/dam/cfm/templates`  ou  `/conf/.../settings/dam/cfm/templates`(... = global ou “locatário”)
+  * Os modelos de fragmento de conteúdo podem ser encontrados nos seguintes locais:
+    * Os modelos de fragmento de conteúdo prontos para uso são armazenados no `/libs/settings/dam/cfm/templates`
+    * Eles podem ser sobrepostos no  `/apps/settings/dam/cfm/templates`  ou  `/conf/.../settings/dam/cfm/templates`(... = global ou “locatário”)
 * `translation.dictionary`: o dicionário `I18n` que está presente em `/apps`.
-   * `/apps` é imutável no tempo de execução e o arquivo translator.html não estaria mais disponível no AEM as a Cloud Service.
+  * `/apps` é imutável no tempo de execução e o arquivo translator.html não estaria mais disponível no AEM as a Cloud Service.
 
 ## Possíveis implicações e riscos {#implications-and-risks}
 
@@ -72,10 +76,10 @@ e o valor da propriedade `sling:resourceType` não contém `granite/ui/component
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction" text="Componentes principais"
 
 * Para reduzir o esforço necessário para modernizar suas implementações do AEM Sites, use o [Conjunto de ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/). Essas ferramentas incluem a conversão de:
-   * Caixas de diálogo clássicas (ExtJS) para caixas de diálogo Coral
-   * Componentes de base para Componentes principais
-   * Modelos estáticos e controle de coluna para modelos editáveis e grade responsiva
-   * Designs e caixas de diálogo de design para políticas de modelos editáveis
+  * Caixas de diálogo clássicas (ExtJS) para caixas de diálogo Coral
+  * Componentes de base para Componentes principais
+  * Modelos estáticos e controle de coluna para modelos editáveis e grade responsiva
+  * Designs e caixas de diálogo de design para políticas de modelos editáveis
 * Revise a biblioteca de componentes personalizados do seu projeto e faça a transição, se possível, para o conjunto de [Componentes principais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/introduction) padronizados para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus aplicativos.
 * Crie modelos de fragmentos de conteúdo com recursos equivalentes aos modelos legados e use esses modelos para criar fragmentos de conteúdo no futuro. Consulte [Modelos de fragmentos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models) para mais detalhes.
 * Dicionários `I18n` devem vir do Git por meio do pipeline de CI/CD. [Documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)

@@ -2,13 +2,17 @@
 title: ACV
 description: Página de ajuda referente ao código do detector de padrões.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # ACV {#acv}
 
 Validador de conteúdo de ativos

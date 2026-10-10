@@ -1,14 +1,18 @@
 ---
 title: REP
-description: Página de ajuda de códigos do detector de padrões.
+description: Página de ajuda referente ao código do detector de padrões.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 Agente de replicação
@@ -36,9 +40,9 @@ O AEM as a Cloud Service usa o [Sling Content Distribution](https://sling.apache
 ## Possíveis implicações e riscos {#implications-and-risks}
 
 * A configuração da replicação foi alterada com o AEM as a Cloud Service. Verifique todos os agentes de replicação atuais. A verificação ajuda a visualizar:
-   * quais podem ser substituídos por esse recurso padrão,
-   * quais configurações devem ser movidas para o código
-   * e quais não são compatíveis.
+  * quais podem ser substituídos por esse recurso padrão,
+  * quais configurações devem ser movidas para o código
+  * e quais não são compatíveis.
 * Qualquer uso de agentes de replicação no código personalizado ou em fluxos de trabalho deve ser revisado durante a atualização para o AEM as a Cloud Service.
 * Inicialmente, a replicação inversa não é suportada no AEM as a Cloud Service.
 * Não é necessário configurar um agente de limpeza do Dispatcher separado. Em vez disso, ele é configurado automaticamente no ambiente do AEM as a Cloud Service.

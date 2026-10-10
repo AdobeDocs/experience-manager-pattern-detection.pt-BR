@@ -1,13 +1,14 @@
 ---
 title: MODELO
 description: Modelo para a página de ajuda de códigos do detector de padrões.
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
